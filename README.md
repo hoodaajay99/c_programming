@@ -1,3 +1,5 @@
+[//]: # (This may be the most platform independent comment)
+
 # C Programming course
 
 ## Table Of Contents
