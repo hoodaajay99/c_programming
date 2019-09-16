@@ -1,4 +1,8 @@
-# Topics Covered
+---
+id: topics
+title: Topics Covered
+sidebar_label: Topics Covered
+---
 
  - Basic Introduction
  - Installing required software
