@@ -1,10 +1,27 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Welcome": [
+      "00-Welcome/about-me",
+      "00-Welcome/what-you-learn"
+    ],
+    "Software Installation": [
+      "01-Installations/software-installation",
+      "01-Installations/vscode-extensions",
+      "01-Installations/vscode-setup"
+    ],
+    "Introduction": [
+      "02-Introduction/lang-features",
+      "02-Introduction/program-flow",
+      "02-Introduction/alternate-tools"
+    ],
+    "C Language Basics": [
+      "03-basics-of-c-language/c-prog-structure",
+      "03-basics-of-c-language/character-set",
+      "03-basics-of-c-language/keywords-identifiers",
+      "03-basics-of-c-language/variables-constants",
+      "03-basics-of-c-language/data-types",
+      "03-basics-of-c-language/c-prog-structure",
+      "03-basics-of-c-language/c-prog-structure"
+    ]    
   }
 }
