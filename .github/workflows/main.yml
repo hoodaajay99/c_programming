@@ -10,8 +10,16 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Checkout Code
+      uses: actions/checkout@master
+    - name: Setup node
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
     - name: Change to Website Directory
       run: cd website
+    - name: Install Dependencies
+      run: npm install
     - name: Build Website
       run: npm run build
     - name: Deply Website
