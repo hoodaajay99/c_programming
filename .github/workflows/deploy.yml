@@ -1,52 +1,20 @@
-name: Build and Deploy Website
-# This workflow is triggered on pushes to the repository.
+name: Build and Deploy
 on: [push]
-
 jobs:
-  build:
-    # Job name is Deploy Website
-    name: Build Deploy
-    # This job runs on Linux
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # Checkout code first using https://github.com/actions/checkout
-      # Use fetch-depth: 1, to shallow clone your repository
-      # , or copy only the latest version of your repository
-      - name: Checkout Code
-        uses: actions/checkout@v1
-        with:
-          fetch-depth: 1
-      # List the files in the repo
-      - name: List the files
-        run: ls -al
-      # Setup node 10.x environment
-      - name: Setup node 10.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
-      - name: Check the node version
-        run: node -v
-      # Change to website
-      - name: Install dependencies 
-        run: | 
-          cd website
-          ls -al
-          npm install
-          ls -al
-      # Build Website
-      - name: Build Website
-        run: |
-          cd website
-          ls -al
-          npm run build
-      # Deploy Website
-      #- name: Deploy Website
-      #run: GIT_USER=hoodaajay@gmail.com npm run publish-gh-pages
-        
-        
-        
-      
-        
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: website/build # The folder the action should deploy.
+        BUILD_SCRIPT: cd website && npm install && npm run build # The build script the action should run prior to deploying.
         
         
         
