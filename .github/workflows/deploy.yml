@@ -17,10 +17,15 @@ jobs:
         with:
           fetch-depth: 1
       # List the files in the repo
-      - name: List the files and check npm
-        run: | 
-          ls -al
-          npm -v
+      - name: List the files
+        run: ls -al
+      - name: Setup node 10.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
+      - name: Check the node version
+        run: node -v
+      
         
         
         
