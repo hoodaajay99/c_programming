@@ -1,5 +1,5 @@
 ---
-id: topics
+id: topics-covered
 title: Topics Covered
 sidebar_label: Topics Covered
 ---

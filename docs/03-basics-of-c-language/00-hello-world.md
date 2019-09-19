@@ -1,4 +1,8 @@
-# Structure of a C Program
+---
+id: program-structures
+title: Structure of a C Program
+sidebar_label: Structure of a C Program
+---
 
 ```c
 // Include Header files

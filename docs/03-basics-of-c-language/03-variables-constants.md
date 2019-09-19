@@ -1,4 +1,8 @@
-# Variables and Constants
+---
+id: variables-constants
+title: Variables and Constants
+sidebar_label: Variables and Constants
+---
 
 ## Variables
 

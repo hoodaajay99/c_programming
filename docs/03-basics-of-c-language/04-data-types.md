@@ -1,4 +1,8 @@
-# Data Types in C
+---
+id: data-types
+title: Data Types in C
+sidebar_label: Data Types in C
+---
 
 ## Fundamental Data Types
 - Specifiy type of data that they store

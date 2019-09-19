@@ -1,4 +1,8 @@
-# Install Software
+---
+id: install-software
+title: Installing Software
+sidebar_label: Installing Software
+---
 
 ## Install VSCode (Visual Studio Code)
 

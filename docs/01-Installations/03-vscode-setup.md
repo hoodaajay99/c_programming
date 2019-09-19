@@ -1,4 +1,8 @@
-# Visual Studio Code - Setup
+---
+id: vscode-setup
+title: Visual Studio Code - Setup
+sidebar_label: Visual Studio Code - Setup
+---
 
 - Install Visual Studio Code
 - Install C/C++ Extension

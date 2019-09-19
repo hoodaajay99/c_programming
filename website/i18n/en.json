@@ -17,42 +17,53 @@
         "title": "Requirements to Complete this course",
         "sidebar_label": "Requirements"
       },
-      "00-Welcome/topics": {
+      "00-Welcome/topics-covered": {
         "title": "Topics Covered",
         "sidebar_label": "Topics Covered"
       },
-      "01-Installations/01-install-software": {
-        "title": "01-Installations/01-install-software"
+      "01-Installations/install-software": {
+        "title": "Installing Software",
+        "sidebar_label": "Installing Software"
       },
-      "01-Installations/02-vscode-extensions": {
-        "title": "01-Installations/02-vscode-extensions"
+      "01-Installations/vscode-extensions": {
+        "title": "VSCode Extensions",
+        "sidebar_label": "VSCode Extensions"
       },
-      "01-Installations/03-vscode-setup": {
-        "title": "01-Installations/03-vscode-setup"
+      "01-Installations/vscode-setup": {
+        "title": "Visual Studio Code - Setup",
+        "sidebar_label": "Visual Studio Code - Setup"
       },
-      "02-Introduction/00-language-features": {
-        "title": "02-Introduction/00-language-features"
+      "02-Introduction/language-features": {
+        "title": "C Language Features",
+        "sidebar_label": "C Language Features"
       },
-      "02-Introduction/01-program-flow": {
-        "title": "02-Introduction/01-program-flow"
+      "02-Introduction/program-flow": {
+        "title": "Program Flow",
+        "sidebar_label": "Program Flow"
       },
-      "02-Introduction/02-alternate-tools": {
-        "title": "02-Introduction/02-alternate-tools"
+      "02-Introduction/alternate-tools": {
+        "title": "Alternate Tools",
+        "sidebar_label": "Alternate Tools"
       },
-      "03-basics-of-c-language/00-hello-world": {
-        "title": "03-basics-of-c-language/00-hello-world"
+      "03-basics-of-c-language/program-structures": {
+        "title": "Structure of a C Program",
+        "sidebar_label": "Structure of a C Program"
       },
-      "03-basics-of-c-language/01-character-set": {
-        "title": "03-basics-of-c-language/01-character-set"
+      "03-basics-of-c-language/character-set": {
+        "title": "Character set",
+        "sidebar_label": "Character set"
       },
-      "03-basics-of-c-language/02-keywords-identifiers": {
-        "title": "03-basics-of-c-language/02-keywords-identifiers"
+      "03-basics-of-c-language/keywords-identifiers": {
+        "title": "Keywords and Identifiers",
+        "sidebar_label": "Keywords and Identifiers"
       },
-      "03-basics-of-c-language/03-variables-constants": {
-        "title": "03-basics-of-c-language/03-variables-constants"
+      "03-basics-of-c-language/variables-constants": {
+        "title": "Variables and Constants",
+        "sidebar_label": "Variables and Constants"
       },
-      "03-basics-of-c-language/04-data-types": {
-        "title": "03-basics-of-c-language/04-data-types"
+      "03-basics-of-c-language/data-types": {
+        "title": "Data Types in C",
+        "sidebar_label": "Data Types in C"
       }
     },
     "links": {

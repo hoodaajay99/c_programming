@@ -1,4 +1,8 @@
-# Character set
+---
+id: character-set
+title: Character set
+sidebar_label: Character set
+---
 
 ## Alphabets
 

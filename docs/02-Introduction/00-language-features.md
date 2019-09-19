@@ -1,4 +1,8 @@
-# C Language Features
+---
+id: language-features
+title: C Language Features
+sidebar_label: C Language Features
+---
 
 - Simple to Learn - Fist Language
 - Extensible - Share (libs/source) and Extend

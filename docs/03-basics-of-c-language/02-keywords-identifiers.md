@@ -1,4 +1,8 @@
-# Keywords and Identifiers
+---
+id: keywords-identifiers
+title: Keywords and Identifiers
+sidebar_label: Keywords and Identifiers
+---
 
 ## Keywords
 

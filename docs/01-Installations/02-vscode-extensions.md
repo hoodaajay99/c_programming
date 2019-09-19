@@ -1,4 +1,8 @@
-#  VSCode Extensions
+---
+id: vscode-extensions
+title: VSCode Extensions
+sidebar_label: VSCode Extensions
+---
 
 1. [C/C++ Extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools )
    1. Provides C/C++ IntelliSense (Intelligent Code Completion, Suggestion), debugging, and code browsing.
