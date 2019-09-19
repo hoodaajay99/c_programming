@@ -1,6 +1,8 @@
 name: Greet Everyone
 # This workflow is triggered on pushes to the repository.
 on: [push]
+  branches:
+    - master
 
 jobs:
   build:
@@ -13,7 +15,7 @@ jobs:
       - name: Hello world
         uses: actions/hello-world-javascript-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Ajay the Octocat'
         id: hello
       # This step prints an output (time) from the previous step's action.
       - name: Echo the greeting's time
