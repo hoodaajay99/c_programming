@@ -12,5 +12,9 @@ jobs:
     steps:
     - name: Change to Website Directory
       run: cd website
-    - name: Build docusourus website
+    - name: Build Website
       run: npm run build
+    - name: Deply Website
+      env:
+        GIT_USER=hoodaajay@gmail.com
+      run: GIT_USER=<GIT_USER> npm run publish-gh-pages
