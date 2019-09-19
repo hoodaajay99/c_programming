@@ -29,8 +29,8 @@ jobs:
       # Change to website and build
       - name: Change to Website Directory and list files
         run: | 
-        cd website
-        ls -al
+          cd website
+          ls -al
         
         
       
