@@ -17,8 +17,10 @@ jobs:
         with:
           fetch-depth: 1
       # List the files in the repo
-      - name: List the files in the repo
-        run: ls -al
+      - name: List the files and check npm
+        run: | 
+          ls -al
+          npm -v
         
         
         
