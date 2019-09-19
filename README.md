@@ -4,7 +4,7 @@
 
 ## Table Of Contents
 
-[About Me](00-Welcome/00-about-me.md)
+[About Me](docs/00-Welcome/00-about-me.md)
 
-[What you will run from this Course](00-Welcome/01-what-you-learn.md)
+[What you will run from this Course](docs/00-Welcome/01-what-you-learn.md)
 
