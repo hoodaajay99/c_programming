@@ -3,35 +3,68 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
+    "tagline": "Learn Programming in C",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "00-Welcome/about-me": {
+        "title": "About Me",
+        "sidebar_label": "About Me"
       },
-      "doc2": {
-        "title": "document number 2"
+      "00-Welcome/what-you-learn": {
+        "title": "What You Will Learn",
+        "sidebar_label": "What You Will Learn"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "00-Welcome/requirements": {
+        "title": "Requirements to Complete this course",
+        "sidebar_label": "Requirements"
       },
-      "doc4": {
-        "title": "Other Document"
+      "00-Welcome/topics": {
+        "title": "Topics Covered",
+        "sidebar_label": "Topics Covered"
       },
-      "doc5": {
-        "title": "Fifth Document"
+      "01-Installations/01-install-software": {
+        "title": "01-Installations/01-install-software"
+      },
+      "01-Installations/02-vscode-extensions": {
+        "title": "01-Installations/02-vscode-extensions"
+      },
+      "01-Installations/03-vscode-setup": {
+        "title": "01-Installations/03-vscode-setup"
+      },
+      "02-Introduction/00-language-features": {
+        "title": "02-Introduction/00-language-features"
+      },
+      "02-Introduction/01-program-flow": {
+        "title": "02-Introduction/01-program-flow"
+      },
+      "02-Introduction/02-alternate-tools": {
+        "title": "02-Introduction/02-alternate-tools"
+      },
+      "03-basics-of-c-language/00-hello-world": {
+        "title": "03-basics-of-c-language/00-hello-world"
+      },
+      "03-basics-of-c-language/01-character-set": {
+        "title": "03-basics-of-c-language/01-character-set"
+      },
+      "03-basics-of-c-language/02-keywords-identifiers": {
+        "title": "03-basics-of-c-language/02-keywords-identifiers"
+      },
+      "03-basics-of-c-language/03-variables-constants": {
+        "title": "03-basics-of-c-language/03-variables-constants"
+      },
+      "03-basics-of-c-language/04-data-types": {
+        "title": "03-basics-of-c-language/04-data-types"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "START THE COURSE": "START THE COURSE",
+      "HELP": "HELP",
+      "BLOG": "BLOG"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Welcome": "Welcome",
+      "Software Installation": "Software Installation",
+      "Introduction": "Introduction",
+      "C Language Basics": "C Language Basics"
     }
   },
   "pages-strings": {

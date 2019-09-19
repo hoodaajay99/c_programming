@@ -52,3 +52,4 @@ Mkfile.old
 dkms.conf
 
 website/node_modules/
+website/build/
