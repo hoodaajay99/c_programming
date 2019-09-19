@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+  branches:
+  - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Change to Website Directory
+      run: cd website
+    - name: Build docusourus website
+      run: npm run build
