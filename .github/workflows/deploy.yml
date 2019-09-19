@@ -37,8 +37,8 @@ jobs:
       - name: Build Website
         run: npm run build
       # Deploy Website
-      - name: Deploy Website
-      run: GIT_USER=hoodaajay@gmail.com npm run publish-gh-pages
+      #- name: Deploy Website
+      #run: GIT_USER=hoodaajay@gmail.com npm run publish-gh-pages
         
         
         
