@@ -26,11 +26,20 @@ jobs:
           node-version: '10.x'
       - name: Check the node version
         run: node -v
-      # Change to website and build
-      - name: Change to Website Directory and list files
+      # Change to website
+      - name: Change to website, install dependencies 
         run: | 
           cd website
           ls -al
+          npm install
+          ls -al
+      # Build Website
+      - name: Build Website
+        run: npm run build
+      # Deploy Website
+      - name: Deploy Website
+      run: GIT_USER=hoodaajay@gmail.com npm run publish-gh-pages
+        
         
         
       
