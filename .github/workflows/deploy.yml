@@ -1,20 +1,28 @@
-name: Greet Everyone
+name: Build and Deploy Website
 # This workflow is triggered on pushes to the repository.
 on: [push]
 
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
+    # Job name is Deploy Website
+    name: Build Deploy
     # This job runs on Linux
     runs-on: ubuntu-latest
     steps:
-      # This step uses GitHub's hello-world-javascript-action: https://github.com/actions/hello-world-javascript-action
-      - name: Hello world
-        uses: actions/hello-world-javascript-action@v1
+      # Checkout code first using https://github.com/actions/checkout
+      # Use fetch-depth: 1, to shallow clone your repository
+      # , or copy only the latest version of your repository
+      - name: Checkout Code
+        uses: actions/checkout@v1
         with:
-          who-to-greet: 'Ajay the Octocat'
-        id: hello
-      # This step prints an output (time) from the previous step's action.
-      - name: Echo the greeting's time
-        run: echo 'The time was ${{ steps.hello.outputs.time }}.'
+          fetch-depth: 1
+      # List the files in the repo
+      - name: List the files in the repo
+        run: ls -al
+        
+        
+        
+        
+        
+        
+       
