@@ -27,7 +27,7 @@ jobs:
       - name: Check the node version
         run: node -v
       # Change to website
-      - name: Change to website, install dependencies 
+      - name: Install dependencies 
         run: | 
           cd website
           ls -al
@@ -35,7 +35,10 @@ jobs:
           ls -al
       # Build Website
       - name: Build Website
-        run: npm run build
+        run: |
+          cd website
+          ls -al
+          npm run build
       # Deploy Website
       #- name: Deploy Website
       #run: GIT_USER=hoodaajay@gmail.com npm run publish-gh-pages
