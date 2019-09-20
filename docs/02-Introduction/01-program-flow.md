@@ -4,7 +4,7 @@ title: Program Flow
 sidebar_label: Program Flow
 ---
 
-![Program Flow](./img/pf.png)
+![Program Flow](assets/doc-image-program-flow.png)
 
 # Three Steps Process
 1. Edit/Write Code

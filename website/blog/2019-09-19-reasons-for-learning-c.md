@@ -3,6 +3,8 @@ title: Top Benefits of Leaning C Programming
 author: Ajay Hooda
 ---
 
+![C Programming](assets/c-programming.png)
+
 C is a middle level programming language developed by Dennis Ritchie during the early 1970s while working at AT&T Bell Labs in USA. 
 
 The objective of its development was in the context of the re-design of the UNIX operating system to enable it to be used on multiple computers.
