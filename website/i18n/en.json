@@ -5,65 +5,92 @@
     "previous": "Previous",
     "tagline": "Learn Programming in C",
     "docs": {
-      "00-Welcome/about-me": {
+      "00-Course-Introduction/course-introduction": {
+        "title": "Course Introduction",
+        "sidebar_label": "Course Introduction"
+      },
+      "02 Welcome/about-me": {
         "title": "About Me",
         "sidebar_label": "About Me"
       },
-      "00-Welcome/what-you-learn": {
+      "02 Welcome/what-you-learn": {
         "title": "What You Will Learn",
         "sidebar_label": "What You Will Learn"
       },
-      "00-Welcome/requirements": {
+      "02 Welcome/requirements": {
         "title": "Requirements to Complete this course",
         "sidebar_label": "Requirements"
       },
-      "00-Welcome/topics-covered": {
-        "title": "Topics Covered",
-        "sidebar_label": "Topics Covered"
+      "02 Welcome/04 Why This Course": {
+        "title": "02 Welcome/04 Why This Course"
       },
-      "01-Installations/install-software": {
-        "title": "Installing Software",
-        "sidebar_label": "Installing Software"
+      "04-Basic-Introduction/01-Introduction-To-C": {
+        "title": "04-Basic-Introduction/01-Introduction-To-C"
       },
-      "01-Installations/vscode-extensions": {
+      "04-Basic-Introduction/02-C Language Features": {
+        "title": "04-Basic-Introduction/02-C Language Features"
+      },
+      "04-Basic-Introduction/03-Why Lean C Language": {
+        "title": "04-Basic-Introduction/03-Why Lean C Language"
+      },
+      "04-Basic-Introduction/04-Very Basic C Program": {
+        "title": "04-Basic-Introduction/04-Very Basic C Program"
+      },
+      "06-Installations/00 Software and Tools": {
+        "title": "06-Installations/00 Software and Tools"
+      },
+      "06-Installations/01 Installing VS Code Linux": {
+        "title": "06-Installations/01 Installing VS Code Linux"
+      },
+      "06-Installations/02 Installing VS Code Windows": {
+        "title": "06-Installations/02 Installing VS Code Windows"
+      },
+      "06-Installations/03 Installing VS Code MacOS": {
+        "title": "06-Installations/03 Installing VS Code MacOS"
+      },
+      "06-Installations/vscode-extensions": {
         "title": "VSCode Extensions",
         "sidebar_label": "VSCode Extensions"
       },
-      "01-Installations/vscode-setup": {
+      "06-Installations/install-software": {
+        "title": "Installing Software",
+        "sidebar_label": "Installing Software"
+      },
+      "06-Installations/vscode-setup": {
         "title": "Visual Studio Code - Setup",
         "sidebar_label": "Visual Studio Code - Setup"
       },
-      "02-Introduction/language-features": {
-        "title": "C Language Features",
-        "sidebar_label": "C Language Features"
-      },
-      "02-Introduction/program-flow": {
-        "title": "Program Flow",
-        "sidebar_label": "Program Flow"
-      },
-      "02-Introduction/alternate-tools": {
-        "title": "Alternate Tools",
-        "sidebar_label": "Alternate Tools"
-      },
-      "03-basics-of-c-language/program-structures": {
+      "97-basics-of-c-language/program-structures": {
         "title": "Structure of a C Program",
         "sidebar_label": "Structure of a C Program"
       },
-      "03-basics-of-c-language/character-set": {
+      "97-basics-of-c-language/character-set": {
         "title": "Character set",
         "sidebar_label": "Character set"
       },
-      "03-basics-of-c-language/keywords-identifiers": {
+      "97-basics-of-c-language/keywords-identifiers": {
         "title": "Keywords and Identifiers",
         "sidebar_label": "Keywords and Identifiers"
       },
-      "03-basics-of-c-language/variables-constants": {
+      "97-basics-of-c-language/variables-constants": {
         "title": "Variables and Constants",
         "sidebar_label": "Variables and Constants"
       },
-      "03-basics-of-c-language/data-types": {
+      "97-basics-of-c-language/data-types": {
         "title": "Data Types in C",
         "sidebar_label": "Data Types in C"
+      },
+      "98-Introduction/language-features": {
+        "title": "C Language Features",
+        "sidebar_label": "C Language Features"
+      },
+      "98-Introduction/program-flow": {
+        "title": "Program Flow",
+        "sidebar_label": "Program Flow"
+      },
+      "98-Introduction/alternate-tools": {
+        "title": "Alternate Tools",
+        "sidebar_label": "Alternate Tools"
       }
     },
     "links": {
@@ -72,10 +99,7 @@
       "BLOG": "BLOG"
     },
     "categories": {
-      "Welcome": "Welcome",
-      "Software Installation": "Software Installation",
-      "Introduction": "Introduction",
-      "C Language Basics": "C Language Basics"
+      "Course Introduction": "Course Introduction"
     }
   },
   "pages-strings": {
