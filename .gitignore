@@ -53,5 +53,5 @@ dkms.conf
 
 website/node_modules/
 website/build/
-script/
+scripts/docs/
 docs-orig/
