@@ -700,6 +700,38 @@
       "58-Memory-Management/12-Best-Practices/Best-Practices": {
         "title": "Best Practices",
         "sidebar_label": "Best Practices"
+      },
+      "97-basics-of-c-language/program-structures": {
+        "title": "Structure of a C Program",
+        "sidebar_label": "Structure of a C Program"
+      },
+      "97-basics-of-c-language/character-set": {
+        "title": "Character set",
+        "sidebar_label": "Character set"
+      },
+      "97-basics-of-c-language/keywords-identifiers": {
+        "title": "Keywords and Identifiers",
+        "sidebar_label": "Keywords and Identifiers"
+      },
+      "97-basics-of-c-language/variables-constants": {
+        "title": "Variables and Constants",
+        "sidebar_label": "Variables and Constants"
+      },
+      "97-basics-of-c-language/data-types": {
+        "title": "Data Types in C",
+        "sidebar_label": "Data Types in C"
+      },
+      "98-Introduction/language-features": {
+        "title": "C Language Features",
+        "sidebar_label": "C Language Features"
+      },
+      "98-Introduction/program-flow": {
+        "title": "Program Flow",
+        "sidebar_label": "Program Flow"
+      },
+      "98-Introduction/alternate-tools": {
+        "title": "Alternate Tools",
+        "sidebar_label": "Alternate Tools"
       }
     },
     "links": {
