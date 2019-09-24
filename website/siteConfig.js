@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'C LANGUAGE COURSE', // Title for your website.
+  title: 'Tech Skillo', // Title for your website.
   tagline: 'Learn Programming in C',
   url: 'https://techskillo.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
