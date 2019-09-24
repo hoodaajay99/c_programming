@@ -2,6 +2,12 @@
   "docs": {
     "Course Introduction": [
       "00-Course-Introduction/course-introduction"
+    ],
+    "Welcome": [
+      "02-Welcome/about-me",
+      "02-Welcome/what-you-learn",
+      "02-Welcome/requirements",
+      "02-Welcome/why-this-course"
     ]
   }
 }

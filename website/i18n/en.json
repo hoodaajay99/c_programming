@@ -9,20 +9,20 @@
         "title": "Course Introduction",
         "sidebar_label": "Course Introduction"
       },
-      "02 Welcome/about-me": {
+      "02-Welcome/about-me": {
         "title": "About Me",
         "sidebar_label": "About Me"
       },
-      "02 Welcome/what-you-learn": {
+      "02-Welcome/what-you-learn": {
         "title": "What You Will Learn",
         "sidebar_label": "What You Will Learn"
       },
-      "02 Welcome/requirements": {
+      "02-Welcome/requirements": {
         "title": "Requirements to Complete this course",
         "sidebar_label": "Requirements"
       },
-      "02 Welcome/04 Why This Course": {
-        "title": "02 Welcome/04 Why This Course"
+      "02-Welcome/04-Why-This-Course": {
+        "title": "02-Welcome/04-Why-This-Course"
       },
       "04-Basic-Introduction/01-Introduction-To-C": {
         "title": "04-Basic-Introduction/01-Introduction-To-C"
@@ -99,7 +99,8 @@
       "BLOG": "BLOG"
     },
     "categories": {
-      "Course Introduction": "Course Introduction"
+      "Course Introduction": "Course Introduction",
+      "Welcome": "Welcome"
     }
   },
   "pages-strings": {
