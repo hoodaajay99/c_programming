@@ -1,6 +1,6 @@
 ---
-id: vscode-extensions
-title: VSCode Extensions
+id: visual-studio-code-extensions-for-c-programming
+title: Visual Studio Code Extensions for C Programming
 sidebar_label: VSCode Extensions
 ---
 

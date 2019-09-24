@@ -1,7 +1,7 @@
 ---
-id: vscode-setup
-title: Visual Studio Code - Setup
-sidebar_label: Visual Studio Code - Setup
+id: configuring-visual-studio-code-extensions-for-c-programming
+title: Configuring Visual Studio Code Extensions for C Programming
+sidebar_label: Configuring VSCode Extensions
 ---
 
 - Install Visual Studio Code

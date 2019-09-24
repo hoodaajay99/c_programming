@@ -14,7 +14,22 @@
       "04-Basic-Introduction/c-language-features",
       "04-Basic-Introduction/why-c-language",
       "04-Basic-Introduction/basic-c-program"
-    ]
+    ],
+    "Software And Tools": [
+      "06-Install-Software-And-Tools/software-and-tools-tor-c-programming",
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-linux",
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-windows",
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-macos",
+      "06-Install-Software-And-Tools/visual-studio-code-extensions-for-c-programming",
+      "06-Install-Software-And-Tools/installing-visual-studio-code-extensions-for-c-programming",
+      "06-Install-Software-And-Tools/configuring-visual-studio-code-extensions-for-c-programming"
+    ],
+    "Setting up the Course": [
+      "08-Setting-Up-The-Course/introduction-to-Git-The-Version-Control-System",
+      "08-Setting-Up-The-Course/GitHub-and-Source-Repositories",
+      "08-Setting-Up-The-Course/Cloning-the-GitHub-Repository-for-C-Programming-Course"
+    ],
+    
 
   }
 }

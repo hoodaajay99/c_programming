@@ -1,7 +1,7 @@
 ---
-id: install-software
-title: Installing Software
-sidebar_label: Installing Software
+id: installing-visual-studio-code-extensions-for-c-programming
+title: Installing Visual Studio Code Extensions for C Programming
+sidebar_label: Installing VSCode Extensions
 ---
 
 ## Install VSCode (Visual Studio Code)

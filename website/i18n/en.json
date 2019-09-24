@@ -41,29 +41,45 @@
         "title": "Very Basic C Program",
         "sidebar_label": "Very Basic C Program"
       },
-      "06-Installations/00 Software and Tools": {
-        "title": "06-Installations/00 Software and Tools"
+      "06-Install-Software-And-Tools/software-and-tools-tor-c-programming": {
+        "title": "Software And Tools For C Programming",
+        "sidebar_label": "Software And Tools"
       },
-      "06-Installations/01 Installing VS Code Linux": {
-        "title": "06-Installations/01 Installing VS Code Linux"
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-linux": {
+        "title": "Installing Visual Studio Code on Linux for C Programming",
+        "sidebar_label": "Installing VS Code - Linux"
       },
-      "06-Installations/02 Installing VS Code Windows": {
-        "title": "06-Installations/02 Installing VS Code Windows"
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-windows": {
+        "title": "Installing Visual Studio Code on Windows for C Programming",
+        "sidebar_label": "Installing VS Code - Windows"
       },
-      "06-Installations/03 Installing VS Code MacOS": {
-        "title": "06-Installations/03 Installing VS Code MacOS"
+      "06-Install-Software-And-Tools/installing-visual-studio-code-on-macos": {
+        "title": "Installing Visual Studio Code on MacOS for C Programming",
+        "sidebar_label": "Installing VS Code - MacOS"
       },
-      "06-Installations/vscode-extensions": {
-        "title": "VSCode Extensions",
+      "06-Install-Software-And-Tools/visual-studio-code-extensions-for-c-programming": {
+        "title": "Visual Studio Code Extensions for C Programming",
         "sidebar_label": "VSCode Extensions"
       },
-      "06-Installations/install-software": {
-        "title": "Installing Software",
-        "sidebar_label": "Installing Software"
+      "06-Install-Software-And-Tools/installing-visual-studio-code-extensions-for-c-programming": {
+        "title": "Installing Visual Studio Code Extensions for C Programming",
+        "sidebar_label": "Installing VSCode Extensions"
       },
-      "06-Installations/vscode-setup": {
-        "title": "Visual Studio Code - Setup",
-        "sidebar_label": "Visual Studio Code - Setup"
+      "06-Install-Software-And-Tools/configuring-visual-studio-code-extensions-for-c-programming": {
+        "title": "Configuring Visual Studio Code Extensions for C Programming",
+        "sidebar_label": "Configuring VSCode Extensions"
+      },
+      "08-Setting-Up-The-Course/introduction-to-Git-The-Version-Control-System": {
+        "title": "Introduction to Git - The Version Control System",
+        "sidebar_label": "Introduction to Git"
+      },
+      "08-Setting-Up-The-Course/GitHub-and-Source-Repositories": {
+        "title": "GitHub and Source Repositories",
+        "sidebar_label": "GitHub and Source Repositories"
+      },
+      "08-Setting-Up-The-Course/Cloning-the-GitHub-Repository-for-C-Programming-Course": {
+        "title": "Cloning the GitHub Repository for C Programming Course",
+        "sidebar_label": "Cloning GitHub Repository"
       },
       "97-basics-of-c-language/program-structures": {
         "title": "Structure of a C Program",
@@ -106,7 +122,9 @@
     "categories": {
       "Course Introduction": "Course Introduction",
       "Welcome": "Welcome",
-      "Introduction To C": "Introduction To C"
+      "Introduction To C": "Introduction To C",
+      "Software And Tools": "Software And Tools",
+      "Setting up the Course": "Setting up the Course"
     }
   },
   "pages-strings": {
