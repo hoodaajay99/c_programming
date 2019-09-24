@@ -9,109 +9,697 @@
         "title": "Course Introduction",
         "sidebar_label": "Course Introduction"
       },
-      "02-Welcome/about-me": {
+      "02-Welcome/02-About-Me/About-Me": {
         "title": "About Me",
         "sidebar_label": "About Me"
       },
-      "02-Welcome/what-you-learn": {
-        "title": "What You Will Learn",
-        "sidebar_label": "What You Will Learn"
+      "02-Welcome/04-What-you-will-learn-in-this-course/What-you-will-learn-in-this-course": {
+        "title": "What you will learn in this course",
+        "sidebar_label": "What you will learn in this course"
       },
-      "02-Welcome/requirements": {
-        "title": "Requirements to Complete this course",
-        "sidebar_label": "Requirements"
+      "02-Welcome/06-What-are-the-basic-prerequisites-to-understand-this-course/What-are-the-basic-prerequisites-to-understand-this-course": {
+        "title": "What are the basic prerequisites to understand this course",
+        "sidebar_label": "What are the basic prerequisites to understand this course"
       },
-      "02-Welcome/why-learn-this-course": {
-        "title": "Why Learn This Course",
-        "sidebar_label": "Why Learn This Course"
+      "02-Welcome/08-Why-you-should-take-up-this-Course/Why-you-should-take-up-this-Course": {
+        "title": "Why you should take up this Course",
+        "sidebar_label": "Why you should take up this Course"
       },
-      "04-Basic-Introduction/basic-introduction-c": {
+      "04-Basic-Introduction-to-C-Language/02-Introduction-to-C-Language/Introduction-to-C-Language": {
         "title": "Introduction to C Language",
         "sidebar_label": "Introduction to C Language"
       },
-      "04-Basic-Introduction/c-language-features": {
+      "04-Basic-Introduction-to-C-Language/04-C-Language-Features/C-Language-Features": {
         "title": "C Language Features",
         "sidebar_label": "C Language Features"
       },
-      "04-Basic-Introduction/why-c-language": {
-        "title": "Why you should Lean C Language?",
-        "sidebar_label": "Why you should Lean C Language?"
+      "04-Basic-Introduction-to-C-Language/06-Why-you-should-Lean-C-Language/Why-you-should-Lean-C-Language": {
+        "title": "Why you should Lean C Language",
+        "sidebar_label": "Why you should Lean C Language"
       },
-      "04-Basic-Introduction/basic-c-program": {
+      "04-Basic-Introduction-to-C-Language/08-Very-Basic-C-Program/Very-Basic-C-Program": {
         "title": "Very Basic C Program",
         "sidebar_label": "Very Basic C Program"
       },
-      "06-Install-Software-And-Tools/software-and-tools-tor-c-programming": {
-        "title": "Software And Tools For C Programming",
-        "sidebar_label": "Software And Tools"
+      "06-Installing-required-software/02-Software-and-Tools-for-C-Programming/Software-and-Tools-for-C-Programming": {
+        "title": "Software and Tools for C Programming",
+        "sidebar_label": "Software and Tools for C Programming"
       },
-      "06-Install-Software-And-Tools/installing-visual-studio-code-on-linux": {
-        "title": "Installing Visual Studio Code on Linux for C Programming",
-        "sidebar_label": "Installing VS Code - Linux"
+      "06-Installing-required-software/04-Installing-VS-Code-and-Compilers-on-Linux/Installing-VS-Code-and-Compilers-on-Linux": {
+        "title": "Installing VS Code and Compilers on Linux",
+        "sidebar_label": "Installing VS Code and Compilers on Linux"
       },
-      "06-Install-Software-And-Tools/installing-visual-studio-code-on-windows": {
-        "title": "Installing Visual Studio Code on Windows for C Programming",
-        "sidebar_label": "Installing VS Code - Windows"
+      "06-Installing-required-software/06-Installing-VS-Code-and-Compilers-on-Windows/Installing-VS-Code-and-Compilers-on-Windows": {
+        "title": "Installing VS Code and Compilers on Windows",
+        "sidebar_label": "Installing VS Code and Compilers on Windows"
       },
-      "06-Install-Software-And-Tools/installing-visual-studio-code-on-macos": {
-        "title": "Installing Visual Studio Code on MacOS for C Programming",
-        "sidebar_label": "Installing VS Code - MacOS"
+      "06-Installing-required-software/08-Installing-VS-Code-and-Compilers-on-MacOS/Installing-VS-Code-and-Compilers-on-MacOS": {
+        "title": "Installing VS Code and Compilers on MacOS",
+        "sidebar_label": "Installing VS Code and Compilers on MacOS"
       },
-      "06-Install-Software-And-Tools/visual-studio-code-extensions-for-c-programming": {
-        "title": "Visual Studio Code Extensions for C Programming",
-        "sidebar_label": "VSCode Extensions"
+      "06-Installing-required-software/10-VS-Code-Extensions-for-C-Programming/VS-Code-Extensions-for-C-Programming": {
+        "title": "VS Code Extensions for C Programming",
+        "sidebar_label": "VS Code Extensions for C Programming"
       },
-      "06-Install-Software-And-Tools/installing-visual-studio-code-extensions-for-c-programming": {
-        "title": "Installing Visual Studio Code Extensions for C Programming",
-        "sidebar_label": "Installing VSCode Extensions"
+      "06-Installing-required-software/12-Installing-VS-Code-Extensions/Installing-VS-Code-Extensions": {
+        "title": "Installing VS Code Extensions",
+        "sidebar_label": "Installing VS Code Extensions"
       },
-      "06-Install-Software-And-Tools/configuring-visual-studio-code-extensions-for-c-programming": {
-        "title": "Configuring Visual Studio Code Extensions for C Programming",
-        "sidebar_label": "Configuring VSCode Extensions"
+      "06-Installing-required-software/14-Configuring-VS-Code/Configuring-VS-Code": {
+        "title": "Configuring VS Code",
+        "sidebar_label": "Configuring VS Code"
       },
-      "08-Setting-Up-The-Course/introduction-to-Git-The-Version-Control-System": {
-        "title": "Introduction to Git - The Version Control System",
-        "sidebar_label": "Introduction to Git"
+      "08-Setting-up-the-Course/02-Introduction-to-Git-The-Version-Control-System/Introduction-to-Git-The-Version-Control-System": {
+        "title": "Introduction to Git The Version Control System",
+        "sidebar_label": "Introduction to Git The Version Control System"
       },
-      "08-Setting-Up-The-Course/GitHub-and-Source-Repositories": {
+      "08-Setting-up-the-Course/04-GitHub-and-Source-Repositories/GitHub-and-Source-Repositories": {
         "title": "GitHub and Source Repositories",
         "sidebar_label": "GitHub and Source Repositories"
       },
-      "08-Setting-Up-The-Course/Cloning-the-GitHub-Repository-for-C-Programming-Course": {
-        "title": "Cloning the GitHub Repository for C Programming Course",
-        "sidebar_label": "Cloning GitHub Repository"
+      "08-Setting-up-the-Course/06-Cloning-the-GitHub-C-Programming-Code-Repository/Cloning-the-GitHub-C-Programming-Code-Repository": {
+        "title": "Cloning the GitHub C Programming Code Repository",
+        "sidebar_label": "Cloning the GitHub C Programming Code Repository"
       },
-      "97-basics-of-c-language/program-structures": {
-        "title": "Structure of a C Program",
-        "sidebar_label": "Structure of a C Program"
+      "10-Starting-To-Write-C-Code/02-Write-your-First-Program/Write-your-First-Program": {
+        "title": "Write your First Program",
+        "sidebar_label": "Write your First Program"
       },
-      "97-basics-of-c-language/character-set": {
-        "title": "Character set",
-        "sidebar_label": "Character set"
+      "10-Starting-To-Write-C-Code/04-Run-your-first-program/Run-your-first-program": {
+        "title": "Run your first program",
+        "sidebar_label": "Run your first program"
       },
-      "97-basics-of-c-language/keywords-identifiers": {
-        "title": "Keywords and Identifiers",
-        "sidebar_label": "Keywords and Identifiers"
+      "10-Starting-To-Write-C-Code/06-Program-structure/Program-structure": {
+        "title": "Program structure",
+        "sidebar_label": "Program structure"
       },
-      "97-basics-of-c-language/variables-constants": {
-        "title": "Variables and Constants",
-        "sidebar_label": "Variables and Constants"
+      "10-Starting-To-Write-C-Code/08-Comments-Single-and-Multiline/Comments-Single-and-Multiline": {
+        "title": "Comments Single and Multiline",
+        "sidebar_label": "Comments Single and Multiline"
       },
-      "97-basics-of-c-language/data-types": {
-        "title": "Data Types in C",
-        "sidebar_label": "Data Types in C"
+      "10-Starting-To-Write-C-Code/10-Displaying-the-output/Displaying-the-output": {
+        "title": "Displaying the output",
+        "sidebar_label": "Displaying the output"
       },
-      "98-Introduction/language-features": {
-        "title": "C Language Features",
-        "sidebar_label": "C Language Features"
+      "10-Starting-To-Write-C-Code/12-Getting-the-Input-from-Terminal/Getting-the-Input-from-Terminal": {
+        "title": "Getting the Input from Terminal",
+        "sidebar_label": "Getting the Input from Terminal"
       },
-      "98-Introduction/program-flow": {
+      "10-Starting-To-Write-C-Code/14-Program-Flow/Program-Flow": {
         "title": "Program Flow",
         "sidebar_label": "Program Flow"
       },
-      "98-Introduction/alternate-tools": {
-        "title": "Alternate Tools",
-        "sidebar_label": "Alternate Tools"
+      "12-Building-Blocks/02-Character-Set/Character-Set": {
+        "title": "Character Set",
+        "sidebar_label": "Character Set"
+      },
+      "12-Building-Blocks/04-Keywords-and-Identifiers/Keywords-and-Identifiers": {
+        "title": "Keywords and Identifiers",
+        "sidebar_label": "Keywords and Identifiers"
+      },
+      "12-Building-Blocks/06-Variables-and-Constants/Variables-and-Constants": {
+        "title": "Variables and Constants",
+        "sidebar_label": "Variables and Constants"
+      },
+      "12-Building-Blocks/08-Data-types/Data-types": {
+        "title": "Data types",
+        "sidebar_label": "Data types"
+      },
+      "14-Variables-and-Data-Types/02-Basic-Data-Types/Basic-Data-Types": {
+        "title": "Basic Data Types",
+        "sidebar_label": "Basic Data Types"
+      },
+      "14-Variables-and-Data-Types/04-Enums-and-Chars/Enums-and-Chars": {
+        "title": "Enums and Chars",
+        "sidebar_label": "Enums and Chars"
+      },
+      "14-Variables-and-Data-Types/06-Format-Specifiers/Format-Specifiers": {
+        "title": "Format Specifiers",
+        "sidebar_label": "Format Specifiers"
+      },
+      "14-Variables-and-Data-Types/08-The-void-type/The-void-type": {
+        "title": "The void type",
+        "sidebar_label": "The void type"
+      },
+      "14-Variables-and-Data-Types/10-Derived-types/Derived-types": {
+        "title": "Derived types",
+        "sidebar_label": "Derived types"
+      },
+      "14-Variables-and-Data-Types/12-Sizeof-of-Data-types/Sizeof-of-Data-types": {
+        "title": "Sizeof of Data types",
+        "sidebar_label": "Sizeof of Data types"
+      },
+      "16-Operators/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "16-Operators/04-Arithmetic-Operators/Arithmetic-Operators": {
+        "title": "Arithmetic Operators",
+        "sidebar_label": "Arithmetic Operators"
+      },
+      "16-Operators/06-Relational-Operators/Relational-Operators": {
+        "title": "Relational Operators",
+        "sidebar_label": "Relational Operators"
+      },
+      "16-Operators/08-Logical-Operators/Logical-Operators": {
+        "title": "Logical Operators",
+        "sidebar_label": "Logical Operators"
+      },
+      "16-Operators/10-Bitwise-Operators/Bitwise-Operators": {
+        "title": "Bitwise Operators",
+        "sidebar_label": "Bitwise Operators"
+      },
+      "16-Operators/12-Assignment-Operators/Assignment-Operators": {
+        "title": "Assignment Operators",
+        "sidebar_label": "Assignment Operators"
+      },
+      "16-Operators/14-The-Cast-and-sizeof-Operators/The-Cast-and-sizeof-Operators": {
+        "title": "The Cast and sizeof Operators",
+        "sidebar_label": "The Cast and sizeof Operators"
+      },
+      "16-Operators/16-Ternary-Operator/Ternary-Operator": {
+        "title": "Ternary Operator",
+        "sidebar_label": "Ternary Operator"
+      },
+      "16-Operators/18-Operator-Precedence/Operator-Precedence": {
+        "title": "Operator Precedence",
+        "sidebar_label": "Operator Precedence"
+      },
+      "18-Storage-Classes/02-auto/auto": {
+        "title": "auto",
+        "sidebar_label": "auto"
+      },
+      "18-Storage-Classes/04-register/register": {
+        "title": "register",
+        "sidebar_label": "register"
+      },
+      "18-Storage-Classes/06-static/static": {
+        "title": "static",
+        "sidebar_label": "static"
+      },
+      "18-Storage-Classes/08-extern/extern": {
+        "title": "extern",
+        "sidebar_label": "extern"
+      },
+      "20-Control-flow/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "20-Control-flow/04-if-statement/if-statement": {
+        "title": "if statement",
+        "sidebar_label": "if statement"
+      },
+      "20-Control-flow/06-switch-statement/switch-statement": {
+        "title": "switch statement",
+        "sidebar_label": "switch statement"
+      },
+      "20-Control-flow/08-for-Loop/for-Loop": {
+        "title": "for Loop",
+        "sidebar_label": "for Loop"
+      },
+      "20-Control-flow/10-while-Loop/while-Loop": {
+        "title": "while Loop",
+        "sidebar_label": "while Loop"
+      },
+      "20-Control-flow/12-do-while-Loop/do-while-Loop": {
+        "title": "do while Loop",
+        "sidebar_label": "do while Loop"
+      },
+      "20-Control-flow/14-Ternary-Operator/Ternary-Operator": {
+        "title": "Ternary Operator",
+        "sidebar_label": "Ternary Operator"
+      },
+      "20-Control-flow/16-Nested-Loop/Nested-Loop": {
+        "title": "Nested Loop",
+        "sidebar_label": "Nested Loop"
+      },
+      "20-Control-flow/18-Infinite-Loop/Infinite-Loop": {
+        "title": "Infinite Loop",
+        "sidebar_label": "Infinite Loop"
+      },
+      "20-Control-flow/20-loop-Control-break-and-continue/loop-Control-break-and-continue": {
+        "title": "loop Control break and continue",
+        "sidebar_label": "loop Control break and continue"
+      },
+      "22-Functions/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "22-Functions/04-Declaring-and-Defining-a-Function/Declaring-and-Defining-a-Function": {
+        "title": "Declaring and Defining a Function",
+        "sidebar_label": "Declaring and Defining a Function"
+      },
+      "22-Functions/06-Calling-a-Function/Calling-a-Function": {
+        "title": "Calling a Function",
+        "sidebar_label": "Calling a Function"
+      },
+      "22-Functions/08-Passing-Data-to-a-Function/Passing-Data-to-a-Function": {
+        "title": "Passing Data to a Function",
+        "sidebar_label": "Passing Data to a Function"
+      },
+      "22-Functions/10-Returning-data-from-functions/Returning-data-from-functions": {
+        "title": "Returning data from functions",
+        "sidebar_label": "Returning data from functions"
+      },
+      "22-Functions/12-Local-and-Global-Variables/Local-and-Global-Variables": {
+        "title": "Local and Global Variables",
+        "sidebar_label": "Local and Global Variables"
+      },
+      "22-Functions/14-Function-Argumants-Call-by-value/Function-Argumants-Call-by-value": {
+        "title": "Function Argumants Call by value",
+        "sidebar_label": "Function Argumants Call by value"
+      },
+      "22-Functions/16-Function-Argumants-Call-by-reference/Function-Argumants-Call-by-reference": {
+        "title": "Function Argumants Call by reference",
+        "sidebar_label": "Function Argumants Call by reference"
+      },
+      "24-Scope-Rules/02-Local-Variable/Local-Variable": {
+        "title": "Local Variable",
+        "sidebar_label": "Local Variable"
+      },
+      "24-Scope-Rules/04-Global-Variable/Global-Variable": {
+        "title": "Global Variable",
+        "sidebar_label": "Global Variable"
+      },
+      "24-Scope-Rules/06-Block-Scope/Block-Scope": {
+        "title": "Block Scope",
+        "sidebar_label": "Block Scope"
+      },
+      "24-Scope-Rules/08-Initializing-Local-and-Global-Variables/Initializing-Local-and-Global-Variables": {
+        "title": "Initializing Local and Global Variables",
+        "sidebar_label": "Initializing Local and Global Variables"
+      },
+      "24-Scope-Rules/10-Static-Variable/Static-Variable": {
+        "title": "Static Variable",
+        "sidebar_label": "Static Variable"
+      },
+      "24-Scope-Rules/12-Volatile-Variable/Volatile-Variable": {
+        "title": "Volatile Variable",
+        "sidebar_label": "Volatile Variable"
+      },
+      "26-Arrays/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "26-Arrays/04-Declaring-Arrays/Declaring-Arrays": {
+        "title": "Declaring Arrays",
+        "sidebar_label": "Declaring Arrays"
+      },
+      "26-Arrays/06-Initializing-Arrays/Initializing-Arrays": {
+        "title": "Initializing Arrays",
+        "sidebar_label": "Initializing Arrays"
+      },
+      "26-Arrays/08-Accessing-Array-Elements/Accessing-Array-Elements": {
+        "title": "Accessing Array Elements",
+        "sidebar_label": "Accessing Array Elements"
+      },
+      "26-Arrays/10-Multidimensional-Arrays/Multidimensional-Arrays": {
+        "title": "Multidimensional Arrays",
+        "sidebar_label": "Multidimensional Arrays"
+      },
+      "26-Arrays/12-Variable-Length-Arrays/Variable-Length-Arrays": {
+        "title": "Variable Length Arrays",
+        "sidebar_label": "Variable Length Arrays"
+      },
+      "26-Arrays/14-Passing-arrays-to-functions/Passing-arrays-to-functions": {
+        "title": "Passing arrays to functions",
+        "sidebar_label": "Passing arrays to functions"
+      },
+      "26-Arrays/16-Return-array-from-a-function/Return-array-from-a-function": {
+        "title": "Return array from a function",
+        "sidebar_label": "Return array from a function"
+      },
+      "26-Arrays/18-Pointer-to-an-array/Pointer-to-an-array": {
+        "title": "Pointer to an array",
+        "sidebar_label": "Pointer to an array"
+      },
+      "28-Character-Strings/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "28-Character-Strings/04-Declaration-of-strings/Declaration-of-strings": {
+        "title": "Declaration of strings",
+        "sidebar_label": "Declaration of strings"
+      },
+      "28-Character-Strings/06-Initializing-a-String/Initializing-a-String": {
+        "title": "Initializing a String",
+        "sidebar_label": "Initializing a String"
+      },
+      "28-Character-Strings/08-Accessing-String-elements/Accessing-String-elements": {
+        "title": "Accessing String elements",
+        "sidebar_label": "Accessing String elements"
+      },
+      "28-Character-Strings/10-Constant-Strings/Constant-Strings": {
+        "title": "Constant Strings",
+        "sidebar_label": "Constant Strings"
+      },
+      "28-Character-Strings/12-Common-String-Functions/Common-String-Functions": {
+        "title": "Common String Functions",
+        "sidebar_label": "Common String Functions"
+      },
+      "28-Character-Strings/14-Searching-Tokenizing-and-Analyzing-Strings/Searching-Tokenizing-and-Analyzing-Strings": {
+        "title": "Searching Tokenizing and Analyzing Strings",
+        "sidebar_label": "Searching Tokenizing and Analyzing Strings"
+      },
+      "28-Character-Strings/16-Converting-Strings/Converting-Strings": {
+        "title": "Converting Strings",
+        "sidebar_label": "Converting Strings"
+      },
+      "28-Character-Strings/18-Passing-strings-to-function/Passing-strings-to-function": {
+        "title": "Passing strings to function",
+        "sidebar_label": "Passing strings to function"
+      },
+      "30-Debugging/02-Understanding-the-call-stack/Understanding-the-call-stack": {
+        "title": "Understanding the call stack",
+        "sidebar_label": "Understanding the call stack"
+      },
+      "30-Debugging/04-VS-Code-Debugger/VS-Code-Debugger": {
+        "title": "VS Code Debugger",
+        "sidebar_label": "VS Code Debugger"
+      },
+      "30-Debugging/06-Common-C-Mistakes/Common-C-Mistakes": {
+        "title": "Common C Mistakes",
+        "sidebar_label": "Common C Mistakes"
+      },
+      "30-Debugging/08-Understanding-Compiler-Errors/Understanding-Compiler-Errors": {
+        "title": "Understanding Compiler Errors",
+        "sidebar_label": "Understanding Compiler Errors"
+      },
+      "32-Pointers/02-What-are-Pointers/What-are-Pointers": {
+        "title": "What are Pointers",
+        "sidebar_label": "What are Pointers"
+      },
+      "32-Pointers/04-Defining-Pointers/Defining-Pointers": {
+        "title": "Defining Pointers",
+        "sidebar_label": "Defining Pointers"
+      },
+      "32-Pointers/06-Accessing-Pointers/Accessing-Pointers": {
+        "title": "Accessing Pointers",
+        "sidebar_label": "Accessing Pointers"
+      },
+      "32-Pointers/08-Using-Pointers/Using-Pointers": {
+        "title": "Using Pointers",
+        "sidebar_label": "Using Pointers"
+      },
+      "32-Pointers/10-Pointers-and-const/Pointers-and-const": {
+        "title": "Pointers and const",
+        "sidebar_label": "Pointers and const"
+      },
+      "32-Pointers/12-void-Pointer/void-Pointer": {
+        "title": "void Pointer",
+        "sidebar_label": "void Pointer"
+      },
+      "32-Pointers/14-Pointers-and-Arrays/Pointers-and-Arrays": {
+        "title": "Pointers and Arrays",
+        "sidebar_label": "Pointers and Arrays"
+      },
+      "32-Pointers/16-Array-of-pointers/Array-of-pointers": {
+        "title": "Array of pointers",
+        "sidebar_label": "Array of pointers"
+      },
+      "32-Pointers/18-Pointers-and-Strings/Pointers-and-Strings": {
+        "title": "Pointers and Strings",
+        "sidebar_label": "Pointers and Strings"
+      },
+      "32-Pointers/20-Pointer-Arithmetic/Pointer-Arithmetic": {
+        "title": "Pointer Arithmetic",
+        "sidebar_label": "Pointer Arithmetic"
+      },
+      "32-Pointers/22-Pass-by-reference/Pass-by-reference": {
+        "title": "Pass by reference",
+        "sidebar_label": "Pass by reference"
+      },
+      "32-Pointers/24-Pointer-to-pointer/Pointer-to-pointer": {
+        "title": "Pointer to pointer",
+        "sidebar_label": "Pointer to pointer"
+      },
+      "32-Pointers/26-Passing-pointers-to-functions/Passing-pointers-to-functions": {
+        "title": "Passing pointers to functions",
+        "sidebar_label": "Passing pointers to functions"
+      },
+      "32-Pointers/28-Return-pointer-from-functions/Return-pointer-from-functions": {
+        "title": "Return pointer from functions",
+        "sidebar_label": "Return pointer from functions"
+      },
+      "34-Structures-in-C/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "34-Structures-in-C/04-Defining-a-Structure/Defining-a-Structure": {
+        "title": "Defining a Structure",
+        "sidebar_label": "Defining a Structure"
+      },
+      "34-Structures-in-C/06-Accessing-Structure-Members/Accessing-Structure-Members": {
+        "title": "Accessing Structure Members",
+        "sidebar_label": "Accessing Structure Members"
+      },
+      "34-Structures-in-C/08-Nested-Structures/Nested-Structures": {
+        "title": "Nested Structures",
+        "sidebar_label": "Nested Structures"
+      },
+      "34-Structures-in-C/10-Structures-and-Arrays/Structures-and-Arrays": {
+        "title": "Structures and Arrays",
+        "sidebar_label": "Structures and Arrays"
+      },
+      "34-Structures-in-C/12-Structures-and-Pointers/Structures-and-Pointers": {
+        "title": "Structures and Pointers",
+        "sidebar_label": "Structures and Pointers"
+      },
+      "34-Structures-in-C/14-Structures-and-Functions/Structures-and-Functions": {
+        "title": "Structures and Functions",
+        "sidebar_label": "Structures and Functions"
+      },
+      "34-Structures-in-C/16-Structures-and-Memory-Allocation/Structures-and-Memory-Allocation": {
+        "title": "Structures and Memory Allocation",
+        "sidebar_label": "Structures and Memory Allocation"
+      },
+      "36-Unions-in-C/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "36-Unions-in-C/04-Defining-a-Union/Defining-a-Union": {
+        "title": "Defining a Union",
+        "sidebar_label": "Defining a Union"
+      },
+      "36-Unions-in-C/06-Accessing-Union-Members/Accessing-Union-Members": {
+        "title": "Accessing Union Members",
+        "sidebar_label": "Accessing Union Members"
+      },
+      "36-Unions-in-C/08-Union-vs-Structures/Union-vs-Structures": {
+        "title": "Union vs Structures",
+        "sidebar_label": "Union vs Structures"
+      },
+      "36-Unions-in-C/10-Union-and-Memory-Allocation/Union-and-Memory-Allocation": {
+        "title": "Union and Memory Allocation",
+        "sidebar_label": "Union and Memory Allocation"
+      },
+      "38-Bit-Fields/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "38-Bit-Fields/04-Defining-a-Bit-Field/Defining-a-Bit-Field": {
+        "title": "Defining a Bit Field",
+        "sidebar_label": "Defining a Bit Field"
+      },
+      "38-Bit-Fields/06-Bit-Fields-and-Memory-Allocation/Bit-Fields-and-Memory-Allocation": {
+        "title": "Bit Fields and Memory Allocation",
+        "sidebar_label": "Bit Fields and Memory Allocation"
+      },
+      "40-typedef-Type-Aliases/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "40-typedef-Type-Aliases/04-Defining-a-typedef/Defining-a-typedef": {
+        "title": "Defining a typedef",
+        "sidebar_label": "Defining a typedef"
+      },
+      "40-typedef-Type-Aliases/06-typedef-vs-hash-define/typedef-vs-hash-define": {
+        "title": "typedef vs hash define",
+        "sidebar_label": "typedef vs hash define"
+      },
+      "42-Input-and-Output/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "42-Input-and-Output/04-Standard-Files/Standard-Files": {
+        "title": "Standard Files",
+        "sidebar_label": "Standard Files"
+      },
+      "42-Input-and-Output/06-getchar-and-putchar-Functions/getchar-and-putchar-Functions": {
+        "title": "getchar and putchar Functions",
+        "sidebar_label": "getchar and putchar Functions"
+      },
+      "42-Input-and-Output/08-gets-and-puts-Functions/gets-and-puts-Functions": {
+        "title": "gets and puts Functions",
+        "sidebar_label": "gets and puts Functions"
+      },
+      "42-Input-and-Output/10-scanf-and-printf-Functions/scanf-and-printf-Functions": {
+        "title": "scanf and printf Functions",
+        "sidebar_label": "scanf and printf Functions"
+      },
+      "44-Input-and-Output/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "44-Input-and-Output/04-Opening-Files/Opening-Files": {
+        "title": "Opening Files",
+        "sidebar_label": "Opening Files"
+      },
+      "44-Input-and-Output/06-Closing-a-File/Closing-a-File": {
+        "title": "Closing a File",
+        "sidebar_label": "Closing a File"
+      },
+      "44-Input-and-Output/08-Writing-a-File/Writing-a-File": {
+        "title": "Writing a File",
+        "sidebar_label": "Writing a File"
+      },
+      "44-Input-and-Output/10-Reading-a-File/Reading-a-File": {
+        "title": "Reading a File",
+        "sidebar_label": "Reading a File"
+      },
+      "44-Input-and-Output/12-Binary-Input-Output-Functions/Binary-Input-Output-Functions": {
+        "title": "Binary Input Output Functions",
+        "sidebar_label": "Binary Input Output Functions"
+      },
+      "46-Preprocessors/02-What-is-Preprocessor-and-Preprocessor-Directives/What-is-Preprocessor-and-Preprocessor-Directives": {
+        "title": "What is Preprocessor and Preprocessor Directives",
+        "sidebar_label": "What is Preprocessor and Preprocessor Directives"
+      },
+      "46-Preprocessors/04-Directive-&-Description/Directive-&-Description": {
+        "title": "Directive & Description",
+        "sidebar_label": "Directive & Description"
+      },
+      "46-Preprocessors/06-Predefined-Macros/Predefined-Macros": {
+        "title": "Predefined Macros",
+        "sidebar_label": "Predefined Macros"
+      },
+      "46-Preprocessors/08-Preprocessor-Operators/Preprocessor-Operators": {
+        "title": "Preprocessor Operators",
+        "sidebar_label": "Preprocessor Operators"
+      },
+      "46-Preprocessors/10-Parameterized-Macros/Parameterized-Macros": {
+        "title": "Parameterized Macros",
+        "sidebar_label": "Parameterized Macros"
+      },
+      "46-Preprocessors/12-Directives-Best-Practices/Directives-Best-Practices": {
+        "title": "Directives Best Practices",
+        "sidebar_label": "Directives Best Practices"
+      },
+      "48-Header-Files/02-Include-Syntax/Include-Syntax": {
+        "title": "Include Syntax",
+        "sidebar_label": "Include Syntax"
+      },
+      "48-Header-Files/04-Include-Operation/Include-Operation": {
+        "title": "Include Operation",
+        "sidebar_label": "Include Operation"
+      },
+      "48-Header-Files/06-Once-Only-Headers/Once-Only-Headers": {
+        "title": "Once Only Headers",
+        "sidebar_label": "Once Only Headers"
+      },
+      "48-Header-Files/08-Computed-Includes/Computed-Includes": {
+        "title": "Computed Includes",
+        "sidebar_label": "Computed Includes"
+      },
+      "48-Header-Files/10-Header-file-and-Best-Practices/Header-file-and-Best-Practices": {
+        "title": "Header file and Best Practices",
+        "sidebar_label": "Header file and Best Practices"
+      },
+      "50-Standard-Header-Files/02-Standard-Header-Files/Standard-Header-Files": {
+        "title": "Standard Header Files",
+        "sidebar_label": "Standard Header Files"
+      },
+      "50-Standard-Header-Files/04-Various-Functions/Various-Functions": {
+        "title": "Various Functions",
+        "sidebar_label": "Various Functions"
+      },
+      "50-Standard-Header-Files/06-Math-Functions/Math-Functions": {
+        "title": "Math Functions",
+        "sidebar_label": "Math Functions"
+      },
+      "50-Standard-Header-Files/08-Utility-Functions/Utility-Functions": {
+        "title": "Utility Functions",
+        "sidebar_label": "Utility Functions"
+      },
+      "50-Standard-Header-Files/10-Best-Practices/Best-Practices": {
+        "title": "Best Practices",
+        "sidebar_label": "Best Practices"
+      },
+      "52-Type-Casting/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "52-Type-Casting/04-Integer-Promotion/Integer-Promotion": {
+        "title": "Integer Promotion",
+        "sidebar_label": "Integer Promotion"
+      },
+      "52-Type-Casting/06-Normal-Arithmetic-Conversion/Normal-Arithmetic-Conversion": {
+        "title": "Normal Arithmetic Conversion",
+        "sidebar_label": "Normal Arithmetic Conversion"
+      },
+      "52-Type-Casting/08-Explicit-Type-Casting/Explicit-Type-Casting": {
+        "title": "Explicit Type Casting",
+        "sidebar_label": "Explicit Type Casting"
+      },
+      "52-Type-Casting/10-Type-Casting-Best-Practices/Type-Casting-Best-Practices": {
+        "title": "Type Casting Best Practices",
+        "sidebar_label": "Type Casting Best Practices"
+      },
+      "54-Error-Handling/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "54-Error-Handling/04-errno-perror-and-strerror/errno-perror-and-strerror": {
+        "title": "errno perror and strerror",
+        "sidebar_label": "errno perror and strerror"
+      },
+      "54-Error-Handling/06-Divide-by-Zero-Errors/Divide-by-Zero-Errors": {
+        "title": "Divide by Zero Errors",
+        "sidebar_label": "Divide by Zero Errors"
+      },
+      "54-Error-Handling/08-Program-Exit-Status/Program-Exit-Status": {
+        "title": "Program Exit Status",
+        "sidebar_label": "Program Exit Status"
+      },
+      "54-Error-Handling/10-Error-Handling-Best-Practices/Error-Handling-Best-Practices": {
+        "title": "Error Handling Best Practices",
+        "sidebar_label": "Error Handling Best Practices"
+      },
+      "56-Variable-Arguments/02-Overview/Overview": {
+        "title": "Overview",
+        "sidebar_label": "Overview"
+      },
+      "56-Variable-Arguments/04-Variable-Arguments-to-a-Function/Variable-Arguments-to-a-Function": {
+        "title": "Variable Arguments to a Function",
+        "sidebar_label": "Variable Arguments to a Function"
+      },
+      "56-Variable-Arguments/06-The-printf-function/The-printf-function": {
+        "title": "The printf function",
+        "sidebar_label": "The printf function"
+      },
+      "58-Memory-Management/02-Static-vs-Dynamic-Memory-Allocation/Static-vs-Dynamic-Memory-Allocation": {
+        "title": "Static vs Dynamic Memory Allocation",
+        "sidebar_label": "Static vs Dynamic Memory Allocation"
+      },
+      "58-Memory-Management/04-Allocating-Memory-Dynamically/Allocating-Memory-Dynamically": {
+        "title": "Allocating Memory Dynamically",
+        "sidebar_label": "Allocating Memory Dynamically"
+      },
+      "58-Memory-Management/06-Resizing-Memory/Resizing-Memory": {
+        "title": "Resizing Memory",
+        "sidebar_label": "Resizing Memory"
+      },
+      "58-Memory-Management/08-DeAllocating-Memory/DeAllocating-Memory": {
+        "title": "DeAllocating Memory",
+        "sidebar_label": "DeAllocating Memory"
+      },
+      "58-Memory-Management/10-Garbage-Collection/Garbage-Collection": {
+        "title": "Garbage Collection",
+        "sidebar_label": "Garbage Collection"
+      },
+      "58-Memory-Management/12-Best-Practices/Best-Practices": {
+        "title": "Best Practices",
+        "sidebar_label": "Best Practices"
       }
     },
     "links": {
@@ -122,9 +710,34 @@
     "categories": {
       "Course Introduction": "Course Introduction",
       "Welcome": "Welcome",
-      "Introduction To C": "Introduction To C",
-      "Software And Tools": "Software And Tools",
-      "Setting up the Course": "Setting up the Course"
+      "Basic Introduction to C Language": "Basic Introduction to C Language",
+      "Installing required software": "Installing required software",
+      "Setting up the Course": "Setting up the Course",
+      "Starting To Write C Code": "Starting To Write C Code",
+      "Building Blocks": "Building Blocks",
+      "Variables and Data Types": "Variables and Data Types",
+      "Operators": "Operators",
+      "Storage Classes": "Storage Classes",
+      "Control flow": "Control flow",
+      "Functions": "Functions",
+      "Scope Rules": "Scope Rules",
+      "Arrays": "Arrays",
+      "Character Strings": "Character Strings",
+      "Debugging": "Debugging",
+      "Pointers": "Pointers",
+      "Structures in C": "Structures in C",
+      "Unions in C": "Unions in C",
+      "Bit Fields": "Bit Fields",
+      "typedef Type Aliases": "typedef Type Aliases",
+      "Terminal Input and Output": "Terminal Input and Output",
+      "File Input and Output": "File Input and Output",
+      "Preprocessors": "Preprocessors",
+      "Header Files": "Header Files",
+      "Standard Header Files": "Standard Header Files",
+      "Type Casting": "Type Casting",
+      "Error Handling": "Error Handling",
+      "Variable Arguments": "Variable Arguments",
+      "Memory Management": "Memory Management"
     }
   },
   "pages-strings": {

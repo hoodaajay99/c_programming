@@ -171,14 +171,14 @@ sidebar_label: Course Introduction
 - Defining a typedef
 - typedef vs #define
 
-### Input and Output
+### Terminal Input and Output
 - Overview
 - Standard Files (Unix)
 - getchar() and putchar() Functions
 - gets() and puts() Functions
 - scanf() and printf() Functions
 
-### Input and Output
+### File Input and Output 
 - Overview
 - Opening Files
 - Closing a File
