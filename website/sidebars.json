@@ -7,7 +7,14 @@
       "02-Welcome/about-me",
       "02-Welcome/what-you-learn",
       "02-Welcome/requirements",
-      "02-Welcome/why-this-course"
+      "02-Welcome/why-learn-this-course"
+    ],
+    "Introduction To C": [
+      "04-Basic-Introduction/basic-introduction-c",
+      "04-Basic-Introduction/c-language-features",
+      "04-Basic-Introduction/why-c-language",
+      "04-Basic-Introduction/basic-c-program"
     ]
+
   }
 }

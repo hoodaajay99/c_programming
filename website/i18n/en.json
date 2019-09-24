@@ -21,20 +21,25 @@
         "title": "Requirements to Complete this course",
         "sidebar_label": "Requirements"
       },
-      "02-Welcome/04-Why-This-Course": {
-        "title": "02-Welcome/04-Why-This-Course"
+      "02-Welcome/why-learn-this-course": {
+        "title": "Why Learn This Course",
+        "sidebar_label": "Why Learn This Course"
       },
-      "04-Basic-Introduction/01-Introduction-To-C": {
-        "title": "04-Basic-Introduction/01-Introduction-To-C"
+      "04-Basic-Introduction/basic-introduction-c": {
+        "title": "Introduction to C Language",
+        "sidebar_label": "Introduction to C Language"
       },
-      "04-Basic-Introduction/02-C Language Features": {
-        "title": "04-Basic-Introduction/02-C Language Features"
+      "04-Basic-Introduction/c-language-features": {
+        "title": "C Language Features",
+        "sidebar_label": "C Language Features"
       },
-      "04-Basic-Introduction/03-Why Lean C Language": {
-        "title": "04-Basic-Introduction/03-Why Lean C Language"
+      "04-Basic-Introduction/why-c-language": {
+        "title": "Why you should Lean C Language?",
+        "sidebar_label": "Why you should Lean C Language?"
       },
-      "04-Basic-Introduction/04-Very Basic C Program": {
-        "title": "04-Basic-Introduction/04-Very Basic C Program"
+      "04-Basic-Introduction/basic-c-program": {
+        "title": "Very Basic C Program",
+        "sidebar_label": "Very Basic C Program"
       },
       "06-Installations/00 Software and Tools": {
         "title": "06-Installations/00 Software and Tools"
@@ -100,7 +105,8 @@
     },
     "categories": {
       "Course Introduction": "Course Introduction",
-      "Welcome": "Welcome"
+      "Welcome": "Welcome",
+      "Introduction To C": "Introduction To C"
     }
   },
   "pages-strings": {
