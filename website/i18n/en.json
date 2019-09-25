@@ -15,15 +15,15 @@
       },
       "02-Welcome/04-What-you-will-learn-in-this-course/What-you-will-learn-in-this-course": {
         "title": "What you will learn in this course",
-        "sidebar_label": "What you will learn in this course"
+        "sidebar_label": "What you will learn"
       },
-      "02-Welcome/06-What-are-the-basic-prerequisites-to-understand-this-course/What-are-the-basic-prerequisites-to-understand-this-course": {
-        "title": "What are the basic prerequisites to understand this course",
-        "sidebar_label": "What are the basic prerequisites to understand this course"
+      "02-Welcome/06-basic-prerequisites/basic-prerequisites": {
+        "title": "Basic prerequisites to follow this course",
+        "sidebar_label": "Prerequisites"
       },
       "02-Welcome/08-Why-you-should-take-up-this-Course/Why-you-should-take-up-this-Course": {
         "title": "Why you should take up this Course",
-        "sidebar_label": "Why you should take up this Course"
+        "sidebar_label": "Why take up this Course"
       },
       "04-Basic-Introduction-to-C-Language/02-Introduction-to-C-Language/Introduction-to-C-Language": {
         "title": "Introduction to C Language",

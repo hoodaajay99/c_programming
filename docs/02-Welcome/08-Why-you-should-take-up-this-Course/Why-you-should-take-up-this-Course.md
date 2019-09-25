@@ -1,7 +1,7 @@
 ---
 id: Why-you-should-take-up-this-Course
 title: Why you should take up this Course
-sidebar_label: Why you should take up this Course
+sidebar_label: Why take up this Course
 ---
 
 ### For Beginners:
@@ -14,7 +14,7 @@ sidebar_label: Why you should take up this Course
 - Improve your Job Prospects
 - Help you gain control of your Career and Life
 
-### Professionals:
+### For Professionals:
 - Make for a Good Reintroduction of C Programming Concepts
 - Help Enhance Your Career Skills
 - Improve your Job Prospects

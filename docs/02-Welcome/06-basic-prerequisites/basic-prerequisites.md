@@ -1,6 +1,6 @@
 ---
-id: Basic-prerequisites-to-follow-this-course
-title: What are the basic prerequisites to follow this course
+id: basic-prerequisites
+title: Basic prerequisites to follow this course
 sidebar_label: Prerequisites
 ---
 

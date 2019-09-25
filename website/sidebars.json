@@ -7,7 +7,7 @@
     "Welcome" : [
       "02-Welcome/02-About-Me/About-Me",
       "02-Welcome/04-What-you-will-learn-in-this-course/What-you-will-learn-in-this-course",
-      "02-Welcome/06-What-are-the-basic-prerequisites-to-understand-this-course/What-are-the-basic-prerequisites-to-understand-this-course",
+      "02-Welcome/06-basic-prerequisites/basic-prerequisites",
       "02-Welcome/08-Why-you-should-take-up-this-Course/Why-you-should-take-up-this-Course"
     ],
     "Basic Introduction to C Language" : [
