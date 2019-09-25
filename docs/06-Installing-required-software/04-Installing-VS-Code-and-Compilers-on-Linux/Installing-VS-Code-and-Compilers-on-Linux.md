@@ -10,10 +10,11 @@ sidebar_label: Installing VS Code and Compilers on Linux
 So far IDEs like CodeBlocks, Xcode, Visual Studio have been used for C/C++ programming and are the IDEs of choice. You are free to use them for this course.
 
 But I have decided to use VS code for following reasons - 
-- Support for C/C++ has been added in 2019
+- Support for C/C++ has been added in early 2019
 - Built in Git - Version control system
 - Intellisense: syntax highlighting and autocomplete
 - Vibrant community
+- Ease of use, great coding experience.
 
 ## Follow these steps to Install VS Code on Linux
 
