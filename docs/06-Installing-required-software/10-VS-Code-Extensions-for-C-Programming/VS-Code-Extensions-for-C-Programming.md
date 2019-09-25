@@ -1,7 +1,7 @@
 ---
 id: VS-Code-Extensions-for-C-Programming
 title: VS Code Extensions for C Programming
-sidebar_label: VS Code Extensions for C Programming
+sidebar_label: VS Code Extensions
 ---
 
 ### [C/C++ Extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
