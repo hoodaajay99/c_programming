@@ -4,42 +4,28 @@ title: Installing VS Code Extensions
 sidebar_label: Installing VS Code Extensions
 ---
 
+### VS Code Extensions for C/C++ Programming
+- [C/C++ Extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+- [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 
-## Install VSCode (Visual Studio Code)
+### Installing VS Code Extensions
 
-- [VS Code Downoad Page](https://code.visualstudio.com/download)
-- Available for Windows, Linux and Mac
-- [Visual Studio Code from Snap Store](https://snapcraft.io/code)
+Steps for Installing VS Code Extensions are common for all extensions. Each extension has detailed documentation.
 
-## Install C Compilers
+> It is recommended to refere to documentation of extension for latest usage
 
-### Windows
+#### Browse for extensions 
+  - Bring up the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of VS Code or the View: Extensions command (`Ctrl+Shift+X`).
+  - This will show you a list of the most popular VS Code extensions
+  - Search for your required extension
 
-TODO
+#### Install extension
+- Click the `Install` button
 
-### Linux
+#### Install Details
+- Look for Contributions, Changelog, Dependencies
 
-#### Verify C Compiler
-- Open Terminal & run command:
+> Make sure extensions are compatible with your VSCode installation and well maintained before installing.
 
-```shell
-$ which gcc
-/usr/bin/gcc
-
-$ gcc --version
-gcc (Ubuntu 4.8.4-2ubuntu1~14.04.3) 4.8.4
-Copyright (C) 2013 Free Software Foundation, Inc.
-This is free software; see the source for copying conditions.  There is NO
-warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-```
-#### Install C Compiler (Ubuntu)
-
-```shell
-$ sudo apt update
-$ sudo apt install build-essential
-```
-The command will install a bunch of new packages including gcc, g++ and make
-
-### Mac
-
-TODO
+Refer [Visual Studio Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery) for more details.
