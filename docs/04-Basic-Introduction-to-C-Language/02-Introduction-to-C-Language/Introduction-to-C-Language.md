@@ -10,7 +10,6 @@ sidebar_label: Introduction to C Language
 - Used initially to develop the UNIX operating system
 - One of the most used programming Languages of all time. 
 - [Refer: Current ranking of C Programming Language]([https://link](https://www.tiobe.com/tiobe-index/))
-- 
 
 ### Facts about C Language
 - C is a successor of B language
