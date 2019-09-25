@@ -1,7 +1,7 @@
 ---
 id: Installing-VS-Code-and-Compilers-on-MacOS
 title: Installing VS Code and Compilers on MacOS
-sidebar_label: Installing VS Code and Compilers on MacOS
+sidebar_label: Installing Software on MacOS
 ---
 
 > Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring.
@@ -18,7 +18,6 @@ But I have decided to use VS code for following reasons -
 
 ## Follow these steps to Install VS Code on MacOS
 
-### Step 1: Download
 - Got to site: https://code.visualstudio.com/download
 - Download VSCode for MacOS
 - Double-click on the downloaded archive to expand the contents

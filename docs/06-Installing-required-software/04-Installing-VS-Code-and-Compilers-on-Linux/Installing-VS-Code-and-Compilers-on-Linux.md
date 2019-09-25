@@ -1,7 +1,7 @@
 ---
 id: Installing-VS-Code-and-Compilers-on-Linux
 title: Installing VS Code and Compilers on Linux
-sidebar_label: Installing VS Code and Compilers on Linux
+sidebar_label: Installing Software on Linux
 ---
 
 > Visual Studio Code is a source-code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control and GitHub, syntax highlighting, intelligent code completion, snippets, and code refactoring.
@@ -16,18 +16,18 @@ But I have decided to use VS code for following reasons -
 - Vibrant community
 - Ease of use, great coding experience.
 
-## Follow these steps to Install VS Code on Linux
+## Installing VS Code on Linux
 
-### Step 1: Download
+## Step 1: Download
 - Got to site: https://code.visualstudio.com/download
 - Download .deb package if you are using Ubintu/Debian
 - Download .rpm package if you are using RedHat/Fedora/SUSE
 
 > `deb` and `rpm` are package files which allow for wasy bundling of files, unpack on the target filesystem, execute pre- and post-install scripts, check dependencies. These are created by __Package Managers__ which allow us to distribute software effectively and securely.
 
-### Step 2: Install
+## Step 2: Install
 
-###### For Debian and Ubuntu based distributions: 
+### For Debian and Ubuntu based distributions: 
 
 Use the commands Below:
 
@@ -56,7 +56,7 @@ sudo apt-get install code
 ```
 [Click for Detailed Instructions](https://code.visualstudio.com/docs/setup/linux)
 
-###### For RHEL, Fedora, and CentOS based distributions
+### For RHEL, Fedora, and CentOS based distributions
 
 Use the commands Below:
 

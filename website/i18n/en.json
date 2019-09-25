@@ -10,7 +10,7 @@
         "sidebar_label": "Course Introduction"
       },
       "02-Welcome/02-About-Me/About-Me": {
-        "title": "About Me",
+        "title": "AJAY KUMAR HOODA",
         "sidebar_label": "About Me"
       },
       "02-Welcome/04-What-you-will-learn-in-this-course/What-you-will-learn-in-this-course": {
@@ -27,15 +27,15 @@
       },
       "04-Basic-Introduction-to-C-Language/02-Introduction-to-C-Language/Introduction-to-C-Language": {
         "title": "Introduction to C Language",
-        "sidebar_label": "Introduction to C Language"
+        "sidebar_label": "Introduction"
       },
       "04-Basic-Introduction-to-C-Language/04-C-Language-Features/C-Language-Features": {
         "title": "C Language Features",
-        "sidebar_label": "C Language Features"
+        "sidebar_label": "Language Features"
       },
       "04-Basic-Introduction-to-C-Language/06-Why-you-should-Lean-C-Language/Why-you-should-Lean-C-Language": {
         "title": "Why you should Lean C Language",
-        "sidebar_label": "Why you should Lean C Language"
+        "sidebar_label": "Why Lean C Language"
       },
       "04-Basic-Introduction-to-C-Language/08-Very-Basic-C-Program/Very-Basic-C-Program": {
         "title": "Very Basic C Program",
@@ -43,51 +43,51 @@
       },
       "06-Installing-required-software/02-Software-and-Tools-for-C-Programming/Software-and-Tools-for-C-Programming": {
         "title": "Software and Tools for C Programming",
-        "sidebar_label": "Software and Tools for C Programming"
+        "sidebar_label": "Software and Tools"
       },
       "06-Installing-required-software/04-Installing-VS-Code-and-Compilers-on-Linux/Installing-VS-Code-and-Compilers-on-Linux": {
         "title": "Installing VS Code and Compilers on Linux",
-        "sidebar_label": "Installing VS Code and Compilers on Linux"
+        "sidebar_label": "Installing Software on Linux"
       },
       "06-Installing-required-software/06-Installing-VS-Code-and-Compilers-on-Windows/Installing-VS-Code-and-Compilers-on-Windows": {
         "title": "Installing VS Code and Compilers on Windows",
-        "sidebar_label": "Installing VS Code and Compilers on Windows"
+        "sidebar_label": "Installing Software on Windows"
       },
       "06-Installing-required-software/08-Installing-VS-Code-and-Compilers-on-MacOS/Installing-VS-Code-and-Compilers-on-MacOS": {
         "title": "Installing VS Code and Compilers on MacOS",
-        "sidebar_label": "Installing VS Code and Compilers on MacOS"
+        "sidebar_label": "Installing Software on MacOS"
       },
       "06-Installing-required-software/10-VS-Code-Extensions-for-C-Programming/VS-Code-Extensions-for-C-Programming": {
         "title": "VS Code Extensions for C Programming",
-        "sidebar_label": "VS Code Extensions for C Programming"
+        "sidebar_label": "VS Code Extensions"
       },
       "06-Installing-required-software/12-Installing-VS-Code-Extensions/Installing-VS-Code-Extensions": {
         "title": "Installing VS Code Extensions",
-        "sidebar_label": "Installing VS Code Extensions"
+        "sidebar_label": "Install VSCode Extensions"
       },
       "06-Installing-required-software/14-Configuring-VS-Code/Configuring-VS-Code": {
         "title": "Configuring VS Code",
-        "sidebar_label": "Configuring VS Code"
+        "sidebar_label": "Configure VS Code"
       },
       "08-Setting-up-the-Course/02-Introduction-to-Git-The-Version-Control-System/Introduction-to-Git-The-Version-Control-System": {
-        "title": "Introduction to Git The Version Control System",
-        "sidebar_label": "Introduction to Git The Version Control System"
+        "title": "Introduction to Git - The Version Control System",
+        "sidebar_label": "Introduction to Git"
       },
       "08-Setting-up-the-Course/04-GitHub-and-Source-Repositories/GitHub-and-Source-Repositories": {
         "title": "GitHub and Source Repositories",
-        "sidebar_label": "GitHub and Source Repositories"
+        "sidebar_label": "GitHub and Repositories"
       },
       "08-Setting-up-the-Course/06-Cloning-the-GitHub-C-Programming-Code-Repository/Cloning-the-GitHub-C-Programming-Code-Repository": {
         "title": "Cloning the GitHub C Programming Code Repository",
-        "sidebar_label": "Cloning the GitHub C Programming Code Repository"
+        "sidebar_label": "Cloning Course Repository"
       },
       "10-Starting-To-Write-C-Code/02-Write-your-First-Program/Write-your-First-Program": {
         "title": "Write your First Program",
-        "sidebar_label": "Write your First Program"
+        "sidebar_label": "Write First Program"
       },
       "10-Starting-To-Write-C-Code/04-Run-your-first-program/Run-your-first-program": {
         "title": "Run your first program",
-        "sidebar_label": "Run your first program"
+        "sidebar_label": "Run First program"
       },
       "10-Starting-To-Write-C-Code/06-Program-structure/Program-structure": {
         "title": "Program structure",
@@ -95,7 +95,7 @@
       },
       "10-Starting-To-Write-C-Code/08-Comments-Single-and-Multiline/Comments-Single-and-Multiline": {
         "title": "Comments Single and Multiline",
-        "sidebar_label": "Comments Single and Multiline"
+        "sidebar_label": "Comments in C"
       },
       "10-Starting-To-Write-C-Code/10-Displaying-the-output/Displaying-the-output": {
         "title": "Displaying the output",
@@ -103,7 +103,7 @@
       },
       "10-Starting-To-Write-C-Code/12-Getting-the-Input-from-Terminal/Getting-the-Input-from-Terminal": {
         "title": "Getting the Input from Terminal",
-        "sidebar_label": "Getting the Input from Terminal"
+        "sidebar_label": "Getting Input"
       },
       "10-Starting-To-Write-C-Code/14-Program-Flow/Program-Flow": {
         "title": "Program Flow",

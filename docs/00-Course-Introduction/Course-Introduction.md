@@ -4,19 +4,19 @@ title: Course Introduction
 sidebar_label: Course Introduction
 ---
 
-### Welcome
+## Welcome
 - About Me
 - What you will learn in this course?
 - What are the basic prerequisites to understand this course?
 - Why you should take up this Course?
 
-### Basic Introduction to C Language
+## Basic Introduction to C Language
 - Introduction to C Language
 - C Language Features
 - Why you should Lean C Language?
 - Very Basic C Program
 
-### Installing required software
+## Installing required software
 - Software and Tools for C Programming
 - Installing VS Code and Compilers on Linux
 - Installing VS Code and Compilers on Windows
@@ -25,12 +25,12 @@ sidebar_label: Course Introduction
 - Installing VS Code Extensions
 - Configuring VS Code
 
-### Setting up the Course
+## Setting up the Course
 - Introduction to Git - The Version Control System
 - GitHub and Source Repositories
 - Cloning the GitHub C Programming Code Repository
 
-### Starting To Write C Code
+## Starting To Write C Code
 - Write your First Program
 - Run your first program.
 - Program structure - `#include`, `main()` and `return` 
@@ -39,13 +39,13 @@ sidebar_label: Course Introduction
 - Getting the Input from Terminal
 - Program Flow
 
-### Building Blocks
+## Building Blocks
 - Character Set
 - Keywords and Identifiers
 - Variables and Constants
 - Data types
 
-### Variables and Data Types
+## Variables and Data Types
 - Basic Data Types
 - Enums and Chars
 - Format Specifiers
@@ -53,7 +53,7 @@ sidebar_label: Course Introduction
 - Derived types
 - Sizeof of Data types
 
-### Operators
+## Operators
 - Overview
 - Arithmetic Operators
 - Relational Operators
@@ -64,13 +64,13 @@ sidebar_label: Course Introduction
 - Ternary Operator (The `? :` Operator)
 - Operator Precedence
 
-### Storage Classes
+## Storage Classes
 - auto
 - register
 - static
 - extern
 
-### Control flow
+## Control flow
 - Overview
 - `if` statement
 - `switch` statement
@@ -82,7 +82,7 @@ sidebar_label: Course Introduction
 - Infinite Loop
 - loop Control - `break` and `continue`
 
-### Functions
+## Functions
 - Overview
 - Declaring and Defining a Function
 - Calling a Function
@@ -92,7 +92,7 @@ sidebar_label: Course Introduction
 - Function Argumants - Call by value
 - Function Argumants - Call by reference
 
-### Scope Rules
+## Scope Rules
 - Local Variable
 - Global Variable
 - Block Scope
@@ -100,7 +100,7 @@ sidebar_label: Course Introduction
 - Static Variable
 - Volatile Variable
 
-### Arrays
+## Arrays
 - Overview
 - Declaring Arrays
 - Initializing Arrays
@@ -111,7 +111,7 @@ sidebar_label: Course Introduction
 - Return array from a function
 - Pointer to an array
 
-### Character Strings
+## Character Strings
 - Overview
 - Declaration of strings
 - Initializing a String
@@ -122,13 +122,13 @@ sidebar_label: Course Introduction
 - Converting Strings
 - Passing strings to function
 
-### Debugging
+## Debugging
 - Understanding the call stack
 - VS Code Debugger
 - Common C Mistakes
 - Understanding Compiler Errors
 
-### Pointers
+## Pointers
 - What are Pointers?
 - Defining Pointers
 - Accessing Pointers
@@ -144,7 +144,7 @@ sidebar_label: Course Introduction
 - Passing pointers to functions
 - Return pointer from functions
 
-### Structures in C
+## Structures in C
 - Overview
 - Defining a Structure
 - Accessing Structure Members
@@ -154,31 +154,31 @@ sidebar_label: Course Introduction
 - Structures and Functions
 - Structures and Memory Allocation
 
-### Unions in C
+## Unions in C
 - Overview
 - Defining a Union
 - Accessing Union Members
 - Union vs Structures
 - Union and Memory Allocation
 
-### Bit Fields
+## Bit Fields
 - Overview
 - Defining a Bit Field
 - Bit Fields and Memory Allocation
 
-### typedef - Type Aliases 
+## typedef - Type Aliases 
 - Overview
 - Defining a typedef
 - typedef vs #define
 
-### Terminal Input and Output
+## Terminal Input and Output
 - Overview
 - Standard Files (Unix)
 - getchar() and putchar() Functions
 - gets() and puts() Functions
 - scanf() and printf() Functions
 
-### File Input and Output 
+## File Input and Output 
 - Overview
 - Opening Files
 - Closing a File
@@ -186,7 +186,7 @@ sidebar_label: Course Introduction
 - Reading a File
 - Binary I/O Functions
 
-### Preprocessors
+## Preprocessors
 - What is Preprocessor and Preprocessor Directives
 - Directive & Description
 - Predefined Macros
@@ -194,40 +194,40 @@ sidebar_label: Course Introduction
 - Parameterized Macros
 - Directives Best Practices
 
-### Header Files
+## Header Files
 - Include Syntax
 - Include Operation
 - Once-Only Headers
 - Computed Includes
 - Header file and Best Practices
 
-### Standard Header Files
+## Standard Header Files
 - Standard Header Files
 - Various Functions
 - Math Functions
 - Utility Functions
 - Best Practices
 
-### Type Casting
+## Type Casting
 - Overview
 - Integer Promotion
 - Normal Arithmetic Conversion
 - Explicit Type Casting
 - Type Casting Best Practices
 
-### Error Handling
+## Error Handling
 - Overview
 - errno, perror(). and strerror()
 - Divide by Zero Errors
 - Program Exit Status
 - Error Handling Best Practices
 
-### Variable Arguments
+## Variable Arguments
 - Overview
 - Variable Arguments to a Function
 - The `printf` function
 
-### Memory Management
+## Memory Management
 - Static vs Dynamic Memory Allocation
 - Allocating Memory Dynamically
 - Resizing Memory
@@ -235,7 +235,7 @@ sidebar_label: Course Introduction
 - Garbage Collection
 - Best Practices
 
-### Course Conclusion
+## Course Conclusion
 
-### Further Reading
+## Further Reading
 - References and Resources
