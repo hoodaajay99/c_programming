@@ -22,5 +22,7 @@ git clone https://github.com/hoodaajay99/c_programming.git
 
 __LINK:__ [Download Course Content (Zip File)](https://github.com/hoodaajay99/c_programming/archive/master.zip)
 
+Unzip with unzip utility on your platform
+
 
 > Locate the "Clone or Download" (Green Button) on the Repository page for more information.  
