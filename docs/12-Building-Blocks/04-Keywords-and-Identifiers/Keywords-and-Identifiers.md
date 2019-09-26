@@ -26,14 +26,14 @@ double accountBalance;
 ```
 > Here, **money** and **accountBalance** are identifiers
 
-#### Rules for naming identifiers:
+### Rules for naming identifiers:
 
 - ALLOWED: uppercase and lowercase letters, digits and underscores.
 - First character: Should be letter or underscore
 - NOT_ALLOWED: keywords as identifiers or digits as first character
 - Suggested to keep identifiers less than 31 characters.
 
-# Example
+## Example
 
 ```c
 #include "stdio.h"

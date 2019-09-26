@@ -10,7 +10,7 @@ sidebar_label: Variables and Constants
 - Container (storage area) to hold data
 - Value of a variable can be changed
 
-## Rules for variable Names
+### Rules for variable Names
 -  ALLOWED: uppercase and lowercase letters, digits and underscores.
 - First character: letter or underscore
 - NOT_ALLOWED: keywords as variable names or digits as first character
@@ -39,10 +39,17 @@ int main()
 }
 ```
 
-#### Variable Declaration and Definition
+## Variable Declaration and Definition
 
-- **Declaration:** Only name specified
-- **Definition:** value assigned; Memory allocated
+### Declaration 
+- Only name specified
+
+
+### Definition
+- value is assigned 
+- Memory allocated
+
+### Example
 
 ```c
 #include "stdio.h"
@@ -66,7 +73,7 @@ int main()
 
 - Literal is a value (or an identifier) whose **value cannot be altered** in a program.
 
-#### Integers Literals: 
+### Integers Literals: 
 
 ```
 **Decimal:** 0, -9, 22 etc
@@ -74,7 +81,7 @@ int main()
 **Hexadecimal:** 0x7f, 0x2a, 0x521 etc
 ```
 
-#### Floating-point Literals
+### Floating-point Literals
 
 ```
 -2.0
@@ -82,13 +89,13 @@ int main()
 -0.22E-5
 ```
 
-#### Character Literals
+### Character Literals
 
 ```
 'a', 'm', 'F', '2', '}'
 ```
 
-#### Escape Sequence Literals:
+### Escape Sequence Literals:
 
 ```
 \b	Backspace
@@ -104,7 +111,7 @@ int main()
 \0	Null character
 ```
 
-#### String Literals
+### String Literals
 
 ```
 "good"                  //string constant
@@ -114,7 +121,7 @@ int main()
 "Earth is round\n"      //prints string with a newline
 ```
 
-#### Example
+### Example
 ```c
 #include "stdio.h"
 int main() 
@@ -132,6 +139,8 @@ int main()
 - "const" keyword
 
 > **GOOD_CODING_PRACTICE:** Use constant variable names as UPPERCASE
+
+### Example
 
 ```c
 #include "stdio.h"

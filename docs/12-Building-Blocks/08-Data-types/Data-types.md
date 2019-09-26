@@ -13,7 +13,7 @@ int: store integer 10, 12 etc
 char: Store character 'a', 'b' etc
 ```
 
-#### BASIC (Covered in Beginner Course)
+### BASIC (Covered in Beginner Course)
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
@@ -25,7 +25,7 @@ char: Store character 'a', 'b' etc
 | double	        | 8                     |   %lf             |
 | void      	    | 4                     |   %d, %u          |
 
-#### ADVANCED (Covered in Advanced Course)
+### ADVANCED (Covered in Advanced Course)
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
 | short int         | 2 usually             |   %hd             |
@@ -36,7 +36,7 @@ char: Store character 'a', 'b' etc
 | unsigned long long int| at least 8        |   %llu            |
 | long double	    | usually 16	        |   %Lf             |
 
-##### BEGINNER: Size of all Fundamental Data types
+### BEGINNER: Size of all Fundamental Data types
 
 ```c
 #include <stdio.h>
@@ -66,14 +66,14 @@ int main()
 }
 ```
 
-##### BEGINNER: Size of **int** and **unsigned int**
+### BEGINNER: Size of **int** and **unsigned int**
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
 | int               | at least 2, usually 4 | %d                |
 | unsigned int	    | at least 2, usually 4	| %u                |
 
-###### Example:
+### Example:
 
 ```c
 #include <stdio.h>
@@ -94,14 +94,14 @@ int main()
 }
 ```
 
-##### BEGINNER: Size of **float** and **double**
+### BEGINNER: Size of **float** and **double**
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
 | float	            | 4                     |   %f              |
 | double	        | 8                     |   %lf             |
 
-###### Example:
+### Example:
 
 ```c
 #include <stdio.h>
@@ -120,7 +120,7 @@ int main()
 }
 ```
 
-##### ADVANCED: Size of **short int** and **unsigned short int**
+### ADVANCED: Size of **short int** and **unsigned short int**
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
@@ -146,7 +146,7 @@ int main()
 }
 ```
 
-##### ADVANCED: **long int** and **unsigned long int**
+### ADVANCED: **long int** and **unsigned long int**
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
@@ -173,7 +173,7 @@ int main()
 ```
 
 
-##### ADVANCED: **long long int** and **unsigned long long int**
+### ADVANCED: **long long int** and **unsigned long long int**
 
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
@@ -200,7 +200,7 @@ int main()
 }
 ```
 
-##### ADVANCED: **long double**
+### ADVANCED: **long double**
 
 | Type Specifier    |  Size (bytes)         | Format Specifier  |
 |-------------------|-----------------------|-------------------|
