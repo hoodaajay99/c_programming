@@ -1,6 +1,6 @@
 ---
 id: About-Me
-title: AJAY KUMAR HOODA
+title: AJAY HOODA
 sidebar_label: About Me
 ---
 

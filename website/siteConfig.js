@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: '00-Course-Introduction/course-introduction', label: 'START THE COURSE'},
-    {page: 'help', label: 'HELP'},
+    // {page: 'help', label: 'HELP'},
     {blog: true, label: 'BLOG'},
   ],
 
@@ -72,7 +72,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} TechSkillo`,
+  copyright: `Copyright © ${new Date().getFullYear()} TechSkillo.com`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -96,10 +96,10 @@ const siteConfig = {
   docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
@@ -107,7 +107,40 @@ const siteConfig = {
 
   // customDocsPath: '../c_programming_course'
 
-  cname: 'techskillo.com'
+  // It will go into a CNAME file when your site is built.
+  cname: 'techskillo.com',
+
+  // Google Analytics tracking ID to track page views.
+  gaTrackingId: "UA-46809639-2",
+  // Use global site tags (gtag.js)
+  // send event data to all - Google Ads, Campaign Manager, Display & Video 360, Search Ads 360, and Google Analytics
+  gaGtag: true,
+
+  // Shows on Home Page
+  tagline: "Learn Programming With Industry Experts",
+  //disableTitleTagline: true,
+
+  // Sets edit on each page with link to markdown file on GitHub
+  editUrl: "https://github.com/hoodaajay99/c_programming/blob/master/docs/",
+
+  // scroll to top button at the bottom of your site.
+  // scrollToTop: true
+  // scrollToTopOptions
+
+  // AJAY TODO:
+  // manifest
+  // ogImage
+  // scripts
+  // separateCss
+  // stylesheets
+  // Facebook
+  // twitter
+  // twitterUsername
+  // twitterImage
+  // Comments
+  
+
+
 };
 
 module.exports = siteConfig;
