@@ -31,7 +31,12 @@ Each developer has its open copy of the repository besides central repository fo
 
 Each developer can work on his own repository and later on share 
 
-![Distributed Version Control](https://link](http://verificationexcellence.in/wp-content/uploads/2018/07/reposetory.jpg)
+![Distributed Version Control](https://link]()
+
+![Distributed Version Control](http://verificationexcellence.in/wp-content/uploads/2018/07/reposetory.jpg)
+
+Image: http://verificationexcellence.in/wp-content/uploads/2018/07/reposetory.jpg
+
 
 ## Installing Git on Windows
 

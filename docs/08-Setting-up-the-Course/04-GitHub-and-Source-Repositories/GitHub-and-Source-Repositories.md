@@ -7,7 +7,7 @@ sidebar_label: GitHub and Repositories
 
 ## GitHub
 
-GitHub is subsidiary of Microsoft that provides hosting for software development version control using Git.
+[GitHub](https://github.com) is subsidiary of Microsoft that provides hosting for software development version control using Git.
 
 ## GitHub Services
 - Access control

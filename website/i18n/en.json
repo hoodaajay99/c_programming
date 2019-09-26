@@ -77,9 +77,9 @@
         "title": "GitHub and Source Repositories",
         "sidebar_label": "GitHub and Repositories"
       },
-      "08-Setting-up-the-Course/06-Cloning-the-GitHub-C-Programming-Code-Repository/Cloning-the-GitHub-C-Programming-Code-Repository": {
-        "title": "Cloning the GitHub C Programming Code Repository",
-        "sidebar_label": "Cloning Course Repository"
+      "08-Setting-up-the-Course/06-Getting-Course-Content-And-Source-Code/Getting-Course-Content-And-Source-Code": {
+        "title": "Getting Course Content And Source Code",
+        "sidebar_label": "Getting Course Content"
       },
       "10-Starting-To-Write-C-Code/02-Write-your-First-Program/Write-your-First-Program": {
         "title": "Write your First Program",
