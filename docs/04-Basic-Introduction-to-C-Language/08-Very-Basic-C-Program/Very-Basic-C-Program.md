@@ -4,7 +4,23 @@ title: Very Basic C Program
 sidebar_label: Very Basic C Program
 ---
 
-Following is a very basic C Program. 
+## Following is a very basic C Program
+ 
+```c
+// Include Header files
+#include "stdio.h" //printf, scanf etc
+
+// Start of C application 
+int main() 
+{
+    char var[] = "world";
+    // Print to Console/Terminal
+    printf("Hello %s\n", var);
+
+    // Return Success
+    return 0;
+}
+```
 
 ## Basic C Program consists of following
 
@@ -25,18 +41,3 @@ Following is a very basic C Program.
 - Comments are ignored by the compiler
 - Used to add additional information in the program
 
-```c
-// Include Header files
-#include "stdio.h" //printf, scanf etc
-
-// Start of C application 
-int main() 
-{
-    char var[] = "world";
-    // Print to Console/Terminal
-    printf("Hello %s\n", var);
-
-    // Return Success
-    return 0;
-}
-```
