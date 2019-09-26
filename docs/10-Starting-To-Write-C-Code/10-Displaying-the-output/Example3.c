@@ -6,8 +6,8 @@ int main()
     float varFloat = 18.5;
     double varDouble = 15.4;
 
-    printf("varFloat = %f\n", varFloat);
-    printf("varDouble = %lf", varDouble);
+    printf("varFloat = %f \n", varFloat);
+    printf("varDouble = %lf \n", varDouble);
 
     return 0;
 }

@@ -15,7 +15,7 @@ In C programming, `printf()` is one of the main output function. The function se
 int main()
 { 
     // Displays the string inside quotations
-    printf("My C Programming Course");
+    printf("My C Programming Course \n");
     return 0;
 }
 ```
@@ -34,7 +34,7 @@ C Programming
 int main()
 {
     int varInt = 5;
-    printf("Number = %d", varInt);
+    printf("Number = %d \n", varInt);
 
     return 0;
 }
@@ -56,8 +56,8 @@ int main()
     float varFloat = 18.5;
     double varDouble = 15.4;
 
-    printf("varFloat = %f\n", varFloat);
-    printf("varDouble = %lf", varDouble);
+    printf("varFloat = %f \n", varFloat);
+    printf("varDouble = %lf \n", varDouble);
 
     return 0;
 }
@@ -80,7 +80,7 @@ varDouble = 15.400000
 int main()
 {
     char varChar = 'a';
-    printf("character = %c.", varChar);
+    printf("character = %c \n", varChar);
 
     return 0;
 }

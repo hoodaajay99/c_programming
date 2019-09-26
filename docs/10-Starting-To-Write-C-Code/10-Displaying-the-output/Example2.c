@@ -4,7 +4,7 @@
 int main()
 {
     int varInt = 5;
-    printf("Number = %d", varInt);
+    printf("Number = %d \n", varInt);
 
     return 0;
 }

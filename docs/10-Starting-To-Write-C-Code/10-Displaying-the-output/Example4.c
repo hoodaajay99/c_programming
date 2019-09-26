@@ -4,7 +4,7 @@
 int main()
 {
     char varChar = 'a';
-    printf("character = %c.", varChar);
+    printf("character = %c \n", varChar);
 
     return 0;
 }
