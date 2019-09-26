@@ -89,6 +89,10 @@
         "title": "Run your first program",
         "sidebar_label": "Run First program"
       },
+      "10-Starting-To-Write-C-Code/05-Running-Code-with-Code-Runner/Run-With-Code-Runner": {
+        "title": "Run Program With \"Code Runner - VSCode Extension\"",
+        "sidebar_label": "Run with Code Runner"
+      },
       "10-Starting-To-Write-C-Code/06-Program-structure/Program-structure": {
         "title": "Program structure",
         "sidebar_label": "Program structure"
