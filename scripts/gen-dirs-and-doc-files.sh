@@ -36,10 +36,10 @@ SFC=0
 
 while read f; do
 
-    case ${f:0:3} in
-    '###')
+    case ${f:0:2} in
+    '##')
         FC=$((${FC} + 2))
-        F_BASE=${f:4}
+        F_BASE=${f:3}
 
         if [ $FC -lt 10 ]; then
             F_STR=0$FC-${F_BASE}
