@@ -86,6 +86,38 @@ The message is re-tried by the sender multiple times until acknowledgement is re
 - Exactly once (assured delivery)
 the sender and receiver engage in a two-level handshake to ensure only one copy of the message is received.
 
+### MQTT Message Format
+
+![MQTT Message Format](assets/mqtt-telemetry-transport-for-message-queueing-message-format.jpg)
+
+| Parameter | Desc |
+|:-:|:-:|
+| ClientID | |
+| CleanSession | |
+| UserName | |
+| Password | |
+| LastWillTopic | |
+| LastWillMessage | |
+| LastWillRetain | |
+| KeepAlive | |
+
+
+#### PUBLISH flow with QoS
+
+| QoS Value | QoS Def | Message | Desc |
+|:-:|:-:|:-:|:-:|
+| 0 | At most once | PUBLISH | No Ack |
+| 1 | At least once | PUBLISH | PUBACK |
+| 2 | exactly once | PUBLISH | More Messages + PUBCOMP |
+
+Handson: QoS 0
+
+
+
+
+
+
+
 
 
 
