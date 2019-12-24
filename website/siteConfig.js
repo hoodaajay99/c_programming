@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Tech Skillo', // Title for your website.
+  title: 'Tech Skillo - Learn Programming in C', // Title for your website.
   tagline: 'Learn Programming in C',
-  url: 'https://techskillo.com', // Your website URL
+  url: 'https://cprog.techskillo.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -108,7 +108,7 @@ const siteConfig = {
   // customDocsPath: '../c_programming_course'
 
   // It will go into a CNAME file when your site is built.
-  cname: 'techskillo.com',
+  cname: 'cprog.techskillo.com',
 
   // Google Analytics tracking ID to track page views.
   gaTrackingId: "UA-46809639-2",
