@@ -43,10 +43,10 @@
     "Building Blocks" : [
       "12-Building-Blocks/02-Character-Set/Character-Set",
       "12-Building-Blocks/04-Keywords-and-Identifiers/Keywords-and-Identifiers",
-      "12-Building-Blocks/06-Variables-and-Constants/Variables-and-Constants",
-      "12-Building-Blocks/08-Data-types/Data-types"
+      "12-Building-Blocks/06-Variables-and-Constants/Variables-and-Constants"
     ],
     "Variables and Data Types" : [
+      "14-Variables-and-Data-Types/00-Data-types/Data-types",
       "14-Variables-and-Data-Types/02-Basic-Data-Types/Basic-Data-Types",
       "14-Variables-and-Data-Types/04-Enums-and-Chars/Enums-and-Chars",
       "14-Variables-and-Data-Types/06-Format-Specifiers/Format-Specifiers",
