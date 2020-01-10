@@ -7,8 +7,8 @@ sidebar_label: Enums and Chars
 ## Enums (Enumeration) in C / C++
 
 - Enumeration (or enum) is a user defined data type in C.
-- Emum is used to assign names to integral constants.
-- Emum make a program easy to read and maintain.
+- Enum is used to assign names to integral constants.
+- Enum make a program easy to read and maintain.
 
 ## Syntax of Enums (Enumeration) in C / C++
 
@@ -44,7 +44,7 @@ Enum declaration in the above example creates named integer constants, which can
 
 Please note that `#define` preprocessor directives can also be used to achived the same objective, but using `enum` is better practice.
 
-## Using Emums
+## Using Enums
 ```
 int main()
 {
