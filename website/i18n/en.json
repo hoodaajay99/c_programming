@@ -133,9 +133,9 @@
         "title": "Basic Data Types",
         "sidebar_label": "Basic Data Types"
       },
-      "14-Variables-and-Data-Types/04-Enums-and-Chars/Enums-and-Chars": {
-        "title": "Enums and Chars",
-        "sidebar_label": "Enums and Chars"
+      "14-Variables-and-Data-Types/04-Enums/Enums": {
+        "title": "Enums in C",
+        "sidebar_label": "Enums in C"
       },
       "14-Variables-and-Data-Types/06-Format-Specifiers/Format-Specifiers": {
         "title": "Format Specifiers",
