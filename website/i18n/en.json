@@ -133,6 +133,10 @@
         "title": "Basic Data Types",
         "sidebar_label": "Basic Data Types"
       },
+      "14-Variables-and-Data-Types/03-Sizeof-of-Data-types/Sizeof-of-Data-types": {
+        "title": "Sizeof of Data types",
+        "sidebar_label": "Sizeof of Data types"
+      },
       "14-Variables-and-Data-Types/04-Enums/Enums": {
         "title": "Enums in C",
         "sidebar_label": "Enums in C"
@@ -148,10 +152,6 @@
       "14-Variables-and-Data-Types/10-Derived-types/Derived-types": {
         "title": "Derived types",
         "sidebar_label": "Derived types"
-      },
-      "14-Variables-and-Data-Types/12-Sizeof-of-Data-types/Sizeof-of-Data-types": {
-        "title": "Sizeof of Data types",
-        "sidebar_label": "Sizeof of Data types"
       },
       "16-Operators/02-Overview/Overview": {
         "title": "Overview",
@@ -750,7 +750,7 @@
       "Setting up the Course": "Setting up the Course",
       "Starting To Write C Code": "Starting To Write C Code",
       "Building Blocks": "Building Blocks",
-      "Variables and Data Types": "Variables and Data Types",
+      "Data Types": "Data Types",
       "Operators": "Operators",
       "Storage Classes": "Storage Classes",
       "Control flow": "Control flow",
