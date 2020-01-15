@@ -1,0 +1,30 @@
+1. Create Site
+npm run docusaurus-init
+
+2. Merge siteConfig.js
+title
+tagline
+url
+baseUrl
+projectName
+organizationName
+headerLinks
+colors
+copyright
+cname
+tagline
+editUrl
+
+3. Copy core/Footer.js
+4. Copy static/css/custom.css
+5. Change Landing Page
+- Delete pages/en/index.js
+- Copy static/index.html
+- touch static/.nojekyll
+
+6. Copy Scripts from C course
+7. Create docs
+
+8. Change CNAME on Google Domains
+9. Update Sitemap on Google Search Console
+
