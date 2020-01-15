@@ -1,0 +1,228 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Data Types in C · Tech Skillo - Learn Programming in C</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Fundamental Data Types"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Data Types in C · Tech Skillo - Learn Programming in C"/><meta property="og:type" content="website"/><meta property="og:url" content="https://cprog.techskillo.com/"/><meta property="og:description" content="## Fundamental Data Types"/><meta property="og:image" content="https://cprog.techskillo.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://cprog.techskillo.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://cprog.techskillo.com/blog/atom.xml" title="Tech Skillo - Learn Programming in C Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://cprog.techskillo.com/blog/feed.xml" title="Tech Skillo - Learn Programming in C Blog RSS Feed"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46809639-2"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-46809639-2');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Tech Skillo - Learn Programming in C"/><h2 class="headerTitleWithLogo">Tech Skillo - Learn Programming in C</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/00-Course-Introduction/course-introduction" target="_self">START THE COURSE</a></li><li class=""><a href="/blog/" target="_self">BLOG</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/hoodaajay99/c_programming/blob/master/docs/97-basics-of-c-language/04-data-types.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Data Types in C</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="fundamental-data-types"></a><a href="#fundamental-data-types" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Fundamental Data Types</h2>
+<ul>
+<li>Specifiy type of data that they store</li>
+</ul>
+<p>Example:</p>
+<pre><code class="hljs"><span class="hljs-type">int</span>: store <span class="hljs-type">integer</span> <span class="hljs-number">10</span>, <span class="hljs-number">12</span> etc
+<span class="hljs-type">char</span>: Store <span class="hljs-type">character</span> <span class="hljs-string">'a'</span>, <span class="hljs-string">'b'</span> etc
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="basic-covered-in-beginner-course"></a><a href="#basic-covered-in-beginner-course" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BASIC (Covered in Beginner Course)</h4>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>char</td><td>1</td><td>%c</td></tr>
+<tr><td>unsigned char</td><td>1</td><td>%c</td></tr>
+<tr><td>int</td><td>at least 2, usually 4</td><td>%d</td></tr>
+<tr><td>unsigned int</td><td>at least 2, usually 4</td><td>%u</td></tr>
+<tr><td>float</td><td>4</td><td>%f</td></tr>
+<tr><td>double</td><td>8</td><td>%lf</td></tr>
+<tr><td>void</td><td>4</td><td>%d, %u</td></tr>
+</tbody>
+</table>
+<h4><a class="anchor" aria-hidden="true" id="advanced-covered-in-advanced-course"></a><a href="#advanced-covered-in-advanced-course" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ADVANCED (Covered in Advanced Course)</h4>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>short int</td><td>2 usually</td><td>%hd</td></tr>
+<tr><td>unsigned short int</td><td>2 usually</td><td>%hd</td></tr>
+<tr><td>long int</td><td>at least 4, usually 8</td><td>%li</td></tr>
+<tr><td>unsigned long int</td><td>at least 4</td><td>%lu</td></tr>
+<tr><td>long long int</td><td>at least 8</td><td>%lli</td></tr>
+<tr><td>unsigned long long int</td><td>at least 8</td><td>%llu</td></tr>
+<tr><td>long double</td><td>usually 16</td><td>%Lf</td></tr>
+</tbody>
+</table>
+<h5><a class="anchor" aria-hidden="true" id="beginner-size-of-all-fundamental-data-types"></a><a href="#beginner-size-of-all-fundamental-data-types" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BEGINNER: Size of all Fundamental Data types</h5>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(char) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">char</span>));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(unsigned char) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">char</span>));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">int</span>));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(unsigned int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span>));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(float) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">float</span>));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(double) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">double</span>));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(void) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">void</span>));
+ 
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(short) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(short));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(unsigned short) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">unsigned</span> short));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(long int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span>));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(unsigned long int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span>));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(long long int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span>));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(unsigned long long int) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span>));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(long double) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">long</span> <span class="hljs-keyword">double</span>));
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="beginner-size-of-int-and-unsigned-int"></a><a href="#beginner-size-of-int-and-unsigned-int" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BEGINNER: Size of <strong>int</strong> and <strong>unsigned int</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>int</td><td>at least 2, usually 4</td><td>%d</td></tr>
+<tr><td>unsigned int</td><td>at least 2, usually 4</td><td>%u</td></tr>
+</tbody>
+</table>
+<h6><a class="anchor" aria-hidden="true" id="example"></a><a href="#example" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example:</h6>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">char</span> varChar = <span class="hljs-string">'A'</span>;
+    <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">char</span> varUnsignedChar = <span class="hljs-string">'B'</span>;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varChar) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varChar));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varUnsignedChar) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varUnsignedChar));
+
+    <span class="hljs-comment">// Range: -128 to 127</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varChar value = %c \n"</span>, varChar);
+    <span class="hljs-comment">// Range: 0 to 256</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varUnsignedChar value =%c \n"</span>, varUnsignedChar);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="beginner-size-of-float-and-double"></a><a href="#beginner-size-of-float-and-double" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>BEGINNER: Size of <strong>float</strong> and <strong>double</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>float</td><td>4</td><td>%f</td></tr>
+<tr><td>double</td><td>8</td><td>%lf</td></tr>
+</tbody>
+</table>
+<h6><a class="anchor" aria-hidden="true" id="example-1"></a><a href="#example-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example:</h6>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">float</span> varFloat = <span class="hljs-number">2.3</span>;
+    <span class="hljs-keyword">double</span> varDouble = <span class="hljs-number">6.8</span>;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varFloat) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varFloat));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varDouble) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varDouble));
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varFloat value = %f \n"</span>, varFloat);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varDouble value =%lf \n"</span>, varDouble);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="advanced-size-of-short-int-and-unsigned-short-int"></a><a href="#advanced-size-of-short-int-and-unsigned-short-int" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ADVANCED: Size of <strong>short int</strong> and <strong>unsigned short int</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>short int</td><td>2 usually</td><td>%hd</td></tr>
+<tr><td>unsigned short int</td><td>2 usually</td><td>%hd</td></tr>
+</tbody>
+</table>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    short varShort = <span class="hljs-number">-32768</span>;                 <span class="hljs-comment">// shot int varShort</span>
+    <span class="hljs-keyword">unsigned</span> short varUnsignedShort = <span class="hljs-number">65535</span>; <span class="hljs-comment">// unsigned short int varUnsignedShort</span>
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varShort) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varShort));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varUnsignedShort) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varUnsignedShort));
+
+    <span class="hljs-comment">// Range: -2^15 to 2^15-1 [-32768 to 32767]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varShort Value = %hd \n"</span>, varShort);
+    <span class="hljs-comment">// Range: 0 to 2^16-1 [0 to 65535]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varUnsignedShort Value = %hu \n"</span>, varUnsignedShort);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="advanced-long-int-and-unsigned-long-int"></a><a href="#advanced-long-int-and-unsigned-long-int" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ADVANCED: <strong>long int</strong> and <strong>unsigned long int</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>long int</td><td>at least 4, usually 8</td><td>%li</td></tr>
+<tr><td>unsigned long int</td><td>at least 4</td><td>%lu</td></tr>
+</tbody>
+</table>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span> varLongInt = <span class="hljs-number">-32768</span>;
+    <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span> varUnsignedLongInt = <span class="hljs-number">65535</span>;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varLongInt) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varLongInt));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varUnsignedLongInt) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varUnsignedLongInt));
+
+    <span class="hljs-comment">// Range: -2^15 to 2^15-1 [-32768 to 32767]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varLongInt Value = %li \n"</span>, varLongInt);
+    <span class="hljs-comment">// Range: 0 to 2^16-1 [0 to 65535]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varUnsignedLongInt Value = %lu \n"</span>, varUnsignedLongInt);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="advanced-long-long-int-and-unsigned-long-long-int"></a><a href="#advanced-long-long-int-and-unsigned-long-long-int" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ADVANCED: <strong>long long int</strong> and <strong>unsigned long long int</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>long long int</td><td>at least 8</td><td>%lli</td></tr>
+<tr><td>unsigned long long int</td><td>at least 8</td><td>%llu</td></tr>
+</tbody>
+</table>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span> varLongLongInt = <span class="hljs-number">-32768</span>;
+    <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">long</span> <span class="hljs-keyword">int</span> varUnsignedLongLongInt = <span class="hljs-number">65535</span>;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varLongLongInt) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varLongLongInt));
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varUnsignedLongLongInt) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varUnsignedLongLongInt));
+
+    <span class="hljs-comment">// Range: -2^15 to 2^15-1 [-32768 to 32767]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varLongLongInt Value = %lli \n"</span>, varLongLongInt);
+    <span class="hljs-comment">// Range: 0 to 2^16-1 [0 to 65535]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varUnsignedLongLongInt Value = %llu \n"</span>, varUnsignedLongLongInt);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h5><a class="anchor" aria-hidden="true" id="advanced-long-double"></a><a href="#advanced-long-double" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ADVANCED: <strong>long double</strong></h5>
+<table>
+<thead>
+<tr><th>Type Specifier</th><th>Size (bytes)</th><th>Format Specifier</th></tr>
+</thead>
+<tbody>
+<tr><td>long double</td><td>usually 16</td><td>%Lf</td></tr>
+</tbody>
+</table>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;stdio.h&gt;</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">long</span> <span class="hljs-keyword">double</span> varLongDouble = <span class="hljs-number">3.4</span>;
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"sizeof(varLongDouble) = %lu bytes\n"</span>, <span class="hljs-keyword">sizeof</span>(varLongDouble));
+
+    <span class="hljs-comment">// Range: -2^15 to 2^15-1 [-32768 to 32767]</span>
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"varLongDouble Value = %Lf \n"</span>, varLongDouble);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 1/15/2020 by Ajay Hooda</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#fundamental-data-types">Fundamental Data Types</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>TECH SKILLO</h5><a href="/">Courses</a><a href="/">Bundles</a><a href="/">Android App</a><a href="/">iOS App</a><a href="/">Feature Request</a><a href="/">Interships</a></div><div><h5>COMPANY</h5><a href="/">About Us</a><a href="/">Terms</a><a href="/">Privacy</a><a href="/">Pricing Policy</a><a href="/">SiteMap</a><a href="/">Contact Us</a></div><div><h5>COURSES</h5><a href="/">C Programming</a><a href="/">Linux Kernel</a><a href="/">Device Drivers</a><a href="/">Angular</a><a href="/">ionic Framework</a><a href="/">More Courses</a></div><div><h5>More Links</h5><a href="/">Careers</a><a href="/">Partners</a><a href="https://github.com/hoodaajay99">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a></div></section><section class="copyright">Copyright © 2020 TechSkillo.com</section></footer></div></body></html>

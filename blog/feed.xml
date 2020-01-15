@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Tech Skillo - Learn Programming in C Blog</title>
+        <link>https://cprog.techskillo.com/blog</link>
+        <description>The best place to stay up-to-date with the latest Tech Skillo - Learn Programming in C news and events.</description>
+        <lastBuildDate>Wed, 04 Dec 2019 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Tech Skillo - Learn Programming in C Blog</title>
+            <url>https://cprog.techskillo.com/img/favicon.ico</url>
+            <link>https://cprog.techskillo.com/blog</link>
+        </image>
+        <copyright>Copyright © 2020 TechSkillo.com</copyright>
+        <item>
+            <title><![CDATA[Unserstanding MQTT with Mosquitto MQTT Docker Images]]></title>
+            <link>https://cprog.techskillo.com/blog/2019/12/04/learning-mqtt-mosquitto.html</link>
+            <guid>https://cprog.techskillo.com/blog/2019/12/04/learning-mqtt-mosquitto.html</guid>
+            <pubDate>Wed, 04 Dec 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/mqtt-mosquitto.png" alt="Mosquitto MQTT"></p> <h2><a class="anchor" aria-hidden="true" id="what-is-mqtt"></a><a href="#what-is-mqtt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>What is MQTT</h2> <p>MQTT stands for <code>Message Queuing Telemetry Transport Protocol</code></p> <p>MQTT is an open OASIS and ISO standard lightweight, publish-subscribe application level network protocol that transports messages between devices. It is designed for M2M (mach...</p>]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Top Benefits of Leaning C Programming]]></title>
+            <link>https://cprog.techskillo.com/blog/2019/09/19/reasons-for-learning-c.html</link>
+            <guid>https://cprog.techskillo.com/blog/2019/09/19/reasons-for-learning-c.html</guid>
+            <pubDate>Thu, 19 Sep 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p><img src="/blog/assets/c-programming.png" alt="C Programming"></p> <p>C is a middle level programming language developed by Dennis Ritchie during the early 1970s while working at AT&amp;T Bell Labs in USA.</p> <p>The objective of its development was in the context of the re-design of the UNIX operating system to enable it to...</p>]]></description>
+        </item>
+    </channel>
+</rss>

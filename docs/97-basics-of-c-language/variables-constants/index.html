@@ -1,0 +1,128 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Variables and Constants · Tech Skillo - Learn Programming in C</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Variables"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Variables and Constants · Tech Skillo - Learn Programming in C"/><meta property="og:type" content="website"/><meta property="og:url" content="https://cprog.techskillo.com/"/><meta property="og:description" content="## Variables"/><meta property="og:image" content="https://cprog.techskillo.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://cprog.techskillo.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://cprog.techskillo.com/blog/atom.xml" title="Tech Skillo - Learn Programming in C Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://cprog.techskillo.com/blog/feed.xml" title="Tech Skillo - Learn Programming in C Blog RSS Feed"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46809639-2"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-46809639-2');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Tech Skillo - Learn Programming in C"/><h2 class="headerTitleWithLogo">Tech Skillo - Learn Programming in C</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/00-Course-Introduction/course-introduction" target="_self">START THE COURSE</a></li><li class=""><a href="/blog/" target="_self">BLOG</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/hoodaajay99/c_programming/blob/master/docs/97-basics-of-c-language/03-variables-constants.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Variables and Constants</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="variables"></a><a href="#variables" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variables</h2>
+<ul>
+<li>Container (storage area) to hold data</li>
+<li>Value of a variable can be changed</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="rules-for-variable-names"></a><a href="#rules-for-variable-names" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Rules for variable Names</h2>
+<ul>
+<li>ALLOWED: uppercase and lowercase letters, digits and underscores.</li>
+<li>First character: letter or underscore</li>
+<li>NOT_ALLOWED: keywords as variable names or digits as first character</li>
+<li>Suggested to keep variable names less than 31 characters.</li>
+</ul>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"stdio.h"</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> 
+</span>{
+    <span class="hljs-keyword">int</span> myage = <span class="hljs-number">30</span>; <span class="hljs-comment">// lowercase</span>
+    <span class="hljs-keyword">int</span> MYAGE = <span class="hljs-number">40</span>; <span class="hljs-comment">// uppercase</span>
+    <span class="hljs-keyword">int</span> myAge = <span class="hljs-number">50</span>; <span class="hljs-comment">// camel case - preferred</span>
+    <span class="hljs-keyword">int</span> my_age = <span class="hljs-number">60</span>; <span class="hljs-comment">// with underscore = preferred</span>
+    <span class="hljs-keyword">int</span> __my_age = <span class="hljs-number">70</span>; <span class="hljs-comment">// start with underscore</span>
+
+    <span class="hljs-comment">//int continue = 30; // lowercase</span>
+    <span class="hljs-comment">//int 10myAge = 50; // camel case - preferred    </span>
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"myage: %d\n"</span>, myage);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"MYAGE: %d\n"</span>, MYAGE);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"myAge: %d\n"</span>, myAge);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"my_age: %d\n"</span>, my_age);
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"__my_age: %d\n"</span>, __my_age);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="variable-declaration-and-definition"></a><a href="#variable-declaration-and-definition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variable Declaration and Definition</h4>
+<ul>
+<li><strong>Declaration:</strong> Only name specified</li>
+<li><strong>Definition:</strong> value assigned; Memory allocated</li>
+</ul>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"stdio.h"</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">int</span> myAge; <span class="hljs-comment">// Declaration</span>
+    <span class="hljs-keyword">char</span> myName[] = <span class="hljs-string">"Ajay"</span>; <span class="hljs-comment">// Definition</span>
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"myName: %s, myAge: %d\n"</span>, myName, myAge);
+
+    myAge = <span class="hljs-number">40</span>; <span class="hljs-comment">// Value assigned; Memory allocated</span>
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"myName: %s, myAge: %d\n"</span>, myName, myAge);
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="literals"></a><a href="#literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Literals</h2>
+<ul>
+<li>Literal is a value (or an identifier) whose <strong>value cannot be altered</strong> in a program.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="integers-literals"></a><a href="#integers-literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integers Literals:</h4>
+<pre><code class="hljs">**Decimal:** <span class="hljs-number">0</span>, <span class="hljs-number">-9</span>, <span class="hljs-number">22</span> etc
+**Octal:** <span class="hljs-number">021</span>, <span class="hljs-number">077</span>, <span class="hljs-number">033</span> etc
+**Hexadecimal:** <span class="hljs-number">0x7f</span>, <span class="hljs-number">0x2a</span>, <span class="hljs-number">0x521</span> etc
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="floating-point-literals"></a><a href="#floating-point-literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Floating-point Literals</h4>
+<pre><code class="hljs"><span class="hljs-number">-2.0</span>
+<span class="hljs-number">0.0000234</span>
+<span class="hljs-number">-0.22E-5</span>
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="character-literals"></a><a href="#character-literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Character Literals</h4>
+<pre><code class="hljs">'a', 'm', 'F', '2', '}'
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="escape-sequence-literals"></a><a href="#escape-sequence-literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Escape Sequence Literals:</h4>
+<pre><code class="hljs"><span class="hljs-string">\b</span>  Backspace
+<span class="hljs-string">\f</span>  Form feed
+<span class="hljs-string">\n</span>  Newline
+<span class="hljs-string">\r</span>  Return
+<span class="hljs-string">\t</span>  Horizontal tab
+<span class="hljs-string">\v</span>  Vertical tab
+<span class="hljs-string">\\</span>  Backslash
+<span class="hljs-string">\'</span>  Single quotation mark
+<span class="hljs-string">\"</span>  Double quotation mark
+<span class="hljs-string">\?</span>  Question mark
+<span class="hljs-string">\0</span>  Null character
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="string-literals"></a><a href="#string-literals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>String Literals</h4>
+<pre><code class="hljs"><span class="hljs-string">"good"</span>                  //<span class="hljs-built_in">string</span> <span class="hljs-keyword">constant</span>
+<span class="hljs-string">""</span>                      //<span class="hljs-keyword">null</span> <span class="hljs-built_in">string</span> <span class="hljs-keyword">constant</span>
+<span class="hljs-string">"      "</span>                //<span class="hljs-built_in">string</span> <span class="hljs-keyword">constant</span> <span class="hljs-keyword">of</span> six white space
+<span class="hljs-string">"x"</span>                     //<span class="hljs-built_in">string</span> <span class="hljs-keyword">constant</span> having a single <span class="hljs-built_in">character</span>.
+<span class="hljs-string">"Earth is round\n"</span>      //prints <span class="hljs-built_in">string</span> <span class="hljs-keyword">with</span> a newline
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="example"></a><a href="#example" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Example</h4>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"stdio.h"</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> 
+</span>{
+    <span class="hljs-keyword">char</span> myName[] = <span class="hljs-string">"Ajay"</span>;
+    <span class="hljs-comment">//"Ajay" = "Vijay";</span>
+
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"myName = %s \n"</span>, myName);
+  
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="constants"></a><a href="#constants" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Constants</h2>
+<ul>
+<li>Variables whose value can not change.</li>
+<li>&quot;const&quot; keyword</li>
+</ul>
+<blockquote>
+<p><strong>GOOD_CODING_PRACTICE:</strong> Use constant variable names as UPPERCASE</p>
+</blockquote>
+<pre><code class="hljs css language-c"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"stdio.h"</span></span>
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span> 
+</span>{
+    <span class="hljs-keyword">const</span> <span class="hljs-keyword">double</span> PI = <span class="hljs-number">3.14</span>;  <span class="hljs-comment">// **#GOOD_CODING_PRACTICE**</span>
+    
+    <span class="hljs-built_in">printf</span>(<span class="hljs-string">"PI = %f\n"</span>, PI);
+
+    <span class="hljs-comment">//PI = 40;</span>
+    <span class="hljs-comment">//printf("PI: %d\n", PI);</span>
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+</span></div></article></div><div class="docLastUpdate"><em>Last updated on 1/15/2020 by Ajay Hooda</em></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#variables">Variables</a></li><li><a href="#rules-for-variable-names">Rules for variable Names</a></li><li><a href="#literals">Literals</a></li><li><a href="#constants">Constants</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>TECH SKILLO</h5><a href="/">Courses</a><a href="/">Bundles</a><a href="/">Android App</a><a href="/">iOS App</a><a href="/">Feature Request</a><a href="/">Interships</a></div><div><h5>COMPANY</h5><a href="/">About Us</a><a href="/">Terms</a><a href="/">Privacy</a><a href="/">Pricing Policy</a><a href="/">SiteMap</a><a href="/">Contact Us</a></div><div><h5>COURSES</h5><a href="/">C Programming</a><a href="/">Linux Kernel</a><a href="/">Device Drivers</a><a href="/">Angular</a><a href="/">ionic Framework</a><a href="/">More Courses</a></div><div><h5>More Links</h5><a href="/">Careers</a><a href="/">Partners</a><a href="https://github.com/hoodaajay99">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a></div></section><section class="copyright">Copyright © 2020 TechSkillo.com</section></footer></div></body></html>

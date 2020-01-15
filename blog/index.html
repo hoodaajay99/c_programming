@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Blog · Tech Skillo - Learn Programming in C</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Learn Programming With Industry Experts"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Blog · Tech Skillo - Learn Programming in C"/><meta property="og:type" content="website"/><meta property="og:url" content="https://cprog.techskillo.com/"/><meta property="og:description" content="Learn Programming With Industry Experts"/><meta property="og:image" content="https://cprog.techskillo.com/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://cprog.techskillo.com/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://cprog.techskillo.com/blog/atom.xml" title="Tech Skillo - Learn Programming in C Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://cprog.techskillo.com/blog/feed.xml" title="Tech Skillo - Learn Programming in C Blog RSS Feed"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-46809639-2"></script><script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-46809639-2');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="blog"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="Tech Skillo - Learn Programming in C"/><h2 class="headerTitleWithLogo">Tech Skillo - Learn Programming in C</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/00-Course-Introduction/course-introduction" target="_self">START THE COURSE</a></li><li class="siteNavGroupActive siteNavItemActive"><a href="/blog/" target="_self">BLOG</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul class=""><li class="navListItem"><a class="navItem" href="/blog/2019/12/04/learning-mqtt-mosquitto">Unserstanding MQTT with Mosquitto MQTT Docker Images</a></li><li class="navListItem"><a class="navItem" href="/blog/2019/09/19/reasons-for-learning-c">Top Benefits of Leaning C Programming</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="posts"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2019/12/04/learning-mqtt-mosquitto">Unserstanding MQTT with Mosquitto MQTT Docker Images</a></h1><p class="post-meta">December 4, 2019</p><div class="authorBlock"><p class="post-authorName"><a target="_blank" rel="noreferrer noopener">Ajay Hooda</a></p></div></header><article class="post-content"><div><span><p><img src="/blog/assets/mqtt-mosquitto.png" alt="Mosquitto MQTT"></p>
+<h2><a class="anchor" aria-hidden="true" id="what-is-mqtt"></a><a href="#what-is-mqtt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is MQTT</h2>
+<p>MQTT stands for <code>Message Queuing Telemetry Transport Protocol</code></p>
+<p>MQTT is an open OASIS and ISO standard lightweight, publish-subscribe application level network protocol that transports messages between devices. It is designed for M2M (machine to machine) telemetry in low bandwidth environments.</p>
+<p>The protocol usually runs over TCP/IP. It is designed for connections with remote locations where a &quot;small code footprint&quot; is required or the network bandwidth is limited.</p>
+<p>MQTT uses Transport Layer Security (TLS) encryption with username, password protected connections and or Certificates.</p>
+<h2><a class="anchor" aria-hidden="true" id="mqtt-history"></a><a href="#mqtt-history" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT History</h2>
+<p>It was designed by Andy Stanford-Clark (IBM) and Arlen Nipper in 1999 for connecting Oil Pipeline telemetry systems over satellite.</p>
+<p>It was released Royalty free in 2010 and became an OASIS standard in 2014.</p>
+<h2><a class="anchor" aria-hidden="true" id="mqtt-features"></a><a href="#mqtt-features" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Features</h2>
+<ul>
+<li>OASIS and ISO standard</li>
+<li>Lightweight</li>
+<li>Application layer protocol, just like HTTP, HTTPS</li>
+<li>Small code footprint</li>
+<li>Runs over TCP/IP for reliability, UDP also possible</li>
+<li>Designed for M2M (machine to machine) telemetry</li>
+<li>Used in low bandwidth environments</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="mqtt-versions"></a><a href="#mqtt-versions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Versions</h2>
+<ul>
+<li>MQTT v3.1.0</li>
+<li>MQTT v3.1.1</li>
+<li>MQTT v5</li>
+<li>MQTT-SN: was specified in around 2013, and designed to work over UDP, ZigBee and other transports.</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="mqtt-architecture"></a><a href="#mqtt-architecture" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Architecture</h2>
+<p><img src="/blog/assets/mqtt_architecture.png" alt="MQTT Architecture"></p>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-broker-server"></a><a href="#mqtt-broker-server" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Broker (Server)</h3>
+<p>MQTT Broker or server is a Software entitity runing on a machine (on premise or in the cloud) which acts as a post office for the clients, who can participate in the messaging using pub (publish) / sub (subscribe) messages.</p>
+<p>The main advantages of MQTT broker are:</p>
+<ul>
+<li>Eliminates vulnerable and insecure client connections</li>
+<li>Can easily scale from a single device to thousands</li>
+<li>Manages and tracks all client connection states, including security credentials and certificates</li>
+<li>Reduced network strain without compromising the security</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-client"></a><a href="#mqtt-client" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Client</h3>
+<p><code>MQTT Client</code> is a Software entitity usually runing on a small sensor node which can participate in the messaging with MQTT Broker or other MQTT clients using pub (publish) / sub (subscribe) messages.</p>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-topic"></a><a href="#mqtt-topic" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Topic</h3>
+<p>A Topic eg 'Temperature' which the Clients can pub and sub to.</p>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-messages"></a><a href="#mqtt-messages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Messages</h3>
+<h4><a class="anchor" aria-hidden="true" id="connect-and-connack"></a><a href="#connect-and-connack" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CONNECT and CONNACK</h4>
+<p>Establish connection with the MQTT server and creates a link between the nodes.</p>
+<h4><a class="anchor" aria-hidden="true" id="disconnect"></a><a href="#disconnect" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>DISCONNECT</h4>
+<p>Close connection with the MQTT server and destroy a link between the nodes.</p>
+<h4><a class="anchor" aria-hidden="true" id="publish-and-subscribe"></a><a href="#publish-and-subscribe" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PUBLISH and SUBSCRIBE</h4>
+<p>Clients can subscribe to a topic with the Server (Broker) via <code>SUBSCRIBE</code> message.</p>
+<p>Clients can publish to a topic with the Server (Broker) via <code>PUBLISH</code> message.</p>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-quality-of-service-qos"></a><a href="#mqtt-quality-of-service-qos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Quality of service (QoS)</h3>
+<p>Following QoS parameters are defined in MQTT</p>
+<ul>
+<li><p>At most once (fire and forget)
+The message is sent only once and the client and broker take no additional steps to acknowledge delivery.</p></li>
+<li><p>At least once (acknowledged delivery)
+The message is re-tried by the sender multiple times until acknowledgement is received.</p></li>
+<li><p>Exactly once (assured delivery)
+the sender and receiver engage in a two-level handshake to ensure only one copy of the message is received.</p></li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="mqtt-message-format"></a><a href="#mqtt-message-format" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>MQTT Message Format</h3>
+<p><img src="/blog/assets/mqtt-telemetry-transport-for-message-queueing-message-format.jpg" alt="MQTT Message Format"></p>
+<table>
+<thead>
+<tr><th style="text-align:center">Parameter</th><th style="text-align:center">Desc</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">ClientID</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">CleanSession</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">UserName</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">Password</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">LastWillTopic</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">LastWillMessage</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">LastWillRetain</td><td style="text-align:center"></td></tr>
+<tr><td style="text-align:center">KeepAlive</td><td style="text-align:center"></td></tr>
+</tbody>
+</table>
+<h4><a class="anchor" aria-hidden="true" id="publish-flow-with-qos"></a><a href="#publish-flow-with-qos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>PUBLISH flow with QoS</h4>
+<table>
+<thead>
+<tr><th style="text-align:center">QoS Value</th><th style="text-align:center">QoS Def</th><th style="text-align:center">Message</th><th style="text-align:center">Desc</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">0</td><td style="text-align:center">At most once</td><td style="text-align:center">PUBLISH</td><td style="text-align:center">No Ack</td></tr>
+<tr><td style="text-align:center">1</td><td style="text-align:center">At least once</td><td style="text-align:center">PUBLISH</td><td style="text-align:center">PUBACK</td></tr>
+<tr><td style="text-align:center">2</td><td style="text-align:center">exactly once</td><td style="text-align:center">PUBLISH</td><td style="text-align:center">More Messages + PUBCOMP</td></tr>
+</tbody>
+</table>
+<p>Handson: QoS 0</p>
+</span></div></article></div><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/blog/2019/09/19/reasons-for-learning-c">Top Benefits of Leaning C Programming</a></h1><p class="post-meta">September 19, 2019</p><div class="authorBlock"><p class="post-authorName"><a target="_blank" rel="noreferrer noopener">Ajay Hooda</a></p></div></header><article class="post-content"><div><span><p><img src="/blog/assets/c-programming.png" alt="C Programming"></p>
+<p>C is a middle level programming language developed by Dennis Ritchie during the early 1970s while working at AT&amp;T Bell Labs in USA.</p>
+<p>The objective of its development was in the context of the re-design of the UNIX operating system to enable it to be used on multiple computers.</p>
+<p>C was developed during 1971-73, containing both high-level functionality and the detailed features required to program an operating system. Hence, many of the UNIX components including UNIX kernel itself re written in C.</p>
+<p>Later on in 1988, C Language was standardized as ANSI C. Further in 1990, ANSI C was approved by the International Standards Organization (ISO).</p>
+<p>C99 standard was the next revision; it was published in 1999 and introduced new features like advanced data types etc.</p>
+<p>The C language has formed the basis for many languages including C++, Java, JavaScript, Go, Rust, Limbo, LPC, C#, PHP, Python, Perl, Verilog and C-shell.</p>
+<h2><a class="anchor" aria-hidden="true" id="c-is-a-middle-level-language"></a><a href="#c-is-a-middle-level-language" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C is a Middle-Level Language</h2>
+<p>C Language lies between the <em>Low-level languages</em> which are closer to the hardware just such as <code>assembly languages</code> and <em>High-Level</em> user friendly languages like <code>Python or Javascript</code>.</p>
+<p>C Language being <em>middle level language</em> can be used for writing operating systems, compilers and also doing application level programming.</p>
+<h2><a class="anchor" aria-hidden="true" id="helps-to-understand-the-fundamentals-of-computer-science"></a><a href="#helps-to-understand-the-fundamentals-of-computer-science" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Helps to understand the fundamentals of Computer Science</h2>
+<p>Most aspects of computers science like <em>Computer Networks</em>, <em>Compiler Designing</em> and <em>Operating Systems</em>  etc are based on C programming language.</p>
+<p>Most of the Computer science fields now a days like <em>system programming</em>, <em>Embedded Systems Programming</em>, <em>Programming IOT devices and Sensors</em>, writing <em>device drivers</em>, <em>network adapters</em> etc require robust C programming skills.</p>
+<h2><a class="anchor" aria-hidden="true" id="programs-writtem-in-c-language-execure-very-fast-and-efficiently"></a><a href="#programs-writtem-in-c-language-execure-very-fast-and-efficiently" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Programs writtem in C Language execure very fast and efficiently</h2>
+<p>Modern C runtimes and Compilers create very efficient code which runs very fast on CPU. Also compilers allow us to utilize fast memory access mechnisms like CPU Cache.</p>
+<p>Also C programming language does not have any additional processing overheads such as garbage collection or preventing memory leaks etc. The programmer must take care of these things on his own. This makes it really fast and efficient.</p>
+<h2><a class="anchor" aria-hidden="true" id="vast-application-areas-and-use-cases"></a><a href="#vast-application-areas-and-use-cases" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Vast Application Areas and Use Cases</h2>
+<p>C is consistently amongst most used programming languages for last many decades. Application areas and Use Cases for C programming languages have grown many folds in last many years. Some of the application areas include:</p>
+<ul>
+<li>Embedded Programming</li>
+<li>Internet Of Thing and Sensor Devices</li>
+<li>Micro-controller programming</li>
+<li>micro-Processor programming</li>
+<li>Linux Kernel Subsystem</li>
+<li>Device Drivers</li>
+<li>automotives, Robotics and Hardware Devices</li>
+<li>Gaming applications</li>
+<li>Major Operating Systems</li>
+<li>Major compilers even for other programming languages</li>
+<li>GNU and Linux Subsystem</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="c-is-the-elementary-language-of-all-programming-languages"></a><a href="#c-is-the-elementary-language-of-all-programming-languages" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C is the elementary language of all programming languages</h2>
+<p>Once you learn C language, conceptually it becomes easier to learn high level programming languages. The C language has formed the basis for many languages including C++, Java, JavaScript, Go, Rust, Limbo, LPC, C#, PHP, Python, Perl, Verilog and C-shell.</p>
+<h2><a class="anchor" aria-hidden="true" id="c-is-a-structured-programming-language"></a><a href="#c-is-a-structured-programming-language" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C is a structured programming language</h2>
+<p>Allows a complex program to be broken into simpler programs and complex data to be assembled and managed in structures. It also allows free movement of data across functions.</p>
+<h2><a class="anchor" aria-hidden="true" id="simple-to-learn"></a><a href="#simple-to-learn" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple to learn</h2>
+<p>C Programming language is Simple to learn. Once you understand the concepts it becomes very interesting to work with.</p>
+<h2><a class="anchor" aria-hidden="true" id="c-language-has-a-worldwide-recognition"></a><a href="#c-language-has-a-worldwide-recognition" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>C language has a worldwide recognition</h2>
+<p>Major tech companies like <em>Google</em>, <em>Facebook</em>, <em>Microsoft</em>, <em>Amazon</em> etc recognize the C language and have openings for people working in C language.</p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>TECH SKILLO</h5><a href="/">Courses</a><a href="/">Bundles</a><a href="/">Android App</a><a href="/">iOS App</a><a href="/">Feature Request</a><a href="/">Interships</a></div><div><h5>COMPANY</h5><a href="/">About Us</a><a href="/">Terms</a><a href="/">Privacy</a><a href="/">Pricing Policy</a><a href="/">SiteMap</a><a href="/">Contact Us</a></div><div><h5>COURSES</h5><a href="/">C Programming</a><a href="/">Linux Kernel</a><a href="/">Device Drivers</a><a href="/">Angular</a><a href="/">ionic Framework</a><a href="/">More Courses</a></div><div><h5>More Links</h5><a href="/">Careers</a><a href="/">Partners</a><a href="https://github.com/hoodaajay99">GitHub</a><a class="github-button" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Stack Overflow</a></div></section><section class="copyright">Copyright © 2020 TechSkillo.com</section></footer></div></body></html>
